@@ -34,8 +34,8 @@ class config {
 	
 	// local database
 	public $DB_HOST = 'localhost';
-	public $DB_USERNAME = 'root';
-	public $DB_PASSWORD = 'ka13829';
+	public $DB_USERNAME = 'qouser';
+	public $DB_PASSWORD = 'qopass';
 	public $DB_NAME = 'qwikioffice-distro';
 	
 	public function __construct(){
