@@ -1,0 +1,7134 @@
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => CreateElements.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php85E2.tmp
+            [error] => 0
+            [size] => 414
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => FileReferenceListExample.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php85E3.tmp
+            [error] => 0
+            [size] => 4885
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => CreateElements.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpC573.tmp
+            [error] => 0
+            [size] => 414
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => FileReferenceListExample.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpC584.tmp
+            [error] => 0
+            [size] => 4885
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => panorama.fla
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpC594.tmp
+            [error] => 0
+            [size] => 256512
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => CreateElements.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpCD62.tmp
+            [error] => 0
+            [size] => 414
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => astro.zip
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpCD63.tmp
+            [error] => 0
+            [size] => 5182
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => FileReferenceListExample.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpCD75.tmp
+            [error] => 0
+            [size] => 4885
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => panorama.fla
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpCD64.tmp
+            [error] => 0
+            [size] => 256512
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => CreateElements.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php6E08.tmp
+            [error] => 0
+            [size] => 414
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => FileReferenceListExample.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php6E09.tmp
+            [error] => 0
+            [size] => 4885
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => Rock.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpD16E.tmp
+            [error] => 0
+            [size] => 282
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => rakieta.swf
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpD16F.tmp
+            [error] => 0
+            [size] => 1004
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => Untitled Flash Project.flp
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpD17F.tmp
+            [error] => 0
+            [size] => 80
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => test.fla
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpD190.tmp
+            [error] => 0
+            [size] => 21504
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => astro.zip
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpC8EA.tmp
+            [error] => 0
+            [size] => 5182
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => CreateElements.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpC8FA.tmp
+            [error] => 0
+            [size] => 414
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => FileReferenceListExample.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpC8FC.tmp
+            [error] => 0
+            [size] => 4885
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => panorama.fla
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpC8FB.tmp
+            [error] => 0
+            [size] => 256512
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => AC_RunActiveContent.js
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php9C24.tmp
+            [error] => 0
+            [size] => 8321
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => astro.zip
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php9C34.tmp
+            [error] => 0
+            [size] => 5182
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => astro.zip
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php438B.tmp
+            [error] => 0
+            [size] => 5182
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => CreateElements.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php439D.tmp
+            [error] => 0
+            [size] => 414
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => panorama.html
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php439C.tmp
+            [error] => 0
+            [size] => 2001
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => AC_RunActiveContent.js
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpCE11.tmp
+            [error] => 0
+            [size] => 8321
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => Untitled Flash Project.flp
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpCE12.tmp
+            [error] => 0
+            [size] => 80
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => FileReferenceListExample.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php9AB5.tmp
+            [error] => 0
+            [size] => 4885
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => astro.zip
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpDA4.tmp
+            [error] => 0
+            [size] => 5182
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => AC_RunActiveContent.js
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpDA5.tmp
+            [error] => 0
+            [size] => 8321
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => FileReferenceListExample.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpDB6.tmp
+            [error] => 0
+            [size] => 4885
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => panorama.html
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpDB7.tmp
+            [error] => 0
+            [size] => 2001
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => Rakieta.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpDC8.tmp
+            [error] => 0
+            [size] => 1273
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => CreateElements.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpDB5.tmp
+            [error] => 0
+            [size] => 414
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => rakieta.swf
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpDDA.tmp
+            [error] => 0
+            [size] => 1004
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => test.fla
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpDD9.tmp
+            [error] => 0
+            [size] => 21504
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => panorama.fla
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpDDB.tmp
+            [error] => 0
+            [size] => 256512
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => panorama.swf
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpDEB.tmp
+            [error] => 0
+            [size] => 199718
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => Rock.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpDFD.tmp
+            [error] => 0
+            [size] => 282
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => rakieta.fla
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpDFC.tmp
+            [error] => 0
+            [size] => 43520
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => Untitled Flash Project.flp
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpDFE.tmp
+            [error] => 0
+            [size] => 80
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => astro.zip
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpDC55.tmp
+            [error] => 0
+            [size] => 5182
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => panorama.html
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpEC1E.tmp
+            [error] => 0
+            [size] => 2001
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => FileReferenceListExample.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpEC1F.tmp
+            [error] => 0
+            [size] => 4885
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => Rakieta.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpEC30.tmp
+            [error] => 0
+            [size] => 1273
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => panorama.fla
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpEC41.tmp
+            [error] => 0
+            [size] => 256512
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => panorama.swf
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpEC42.tmp
+            [error] => 0
+            [size] => 199718
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => astro.zip
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php9261.tmp
+            [error] => 0
+            [size] => 5182
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => panorama.html
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php9271.tmp
+            [error] => 0
+            [size] => 2001
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => panorama.html
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpA6FB.tmp
+            [error] => 0
+            [size] => 2001
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => panorama.swf
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpE5D0.tmp
+            [error] => 0
+            [size] => 199718
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => setupugc.exe
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php3299.tmp
+            [error] => 0
+            [size] => 83456
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => setupcl.exe
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php329A.tmp
+            [error] => 0
+            [size] => 54272
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => setupSNK.exe
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php32AB.tmp
+            [error] => 0
+            [size] => 13312
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => setupcln.dll
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php32BC.tmp
+            [error] => 0
+            [size] => 110592
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => setupapi.dll
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php32BD.tmp
+            [error] => 0
+            [size] => 1585664
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => astro.zip
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php49A8.tmp
+            [error] => 0
+            [size] => 5182
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => astro.zip
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php7951.tmp
+            [error] => 0
+            [size] => 5182
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => astro.zip
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php19C5.tmp
+            [error] => 0
+            [size] => 5182
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => Rock.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php1A81.tmp
+            [error] => 0
+            [size] => 282
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => rakieta.fla
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php1A82.tmp
+            [error] => 0
+            [size] => 43520
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => rakieta.swf
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php1A93.tmp
+            [error] => 0
+            [size] => 1004
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => test.fla
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php1A94.tmp
+            [error] => 0
+            [size] => 21504
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => MovieClipContainer.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php4D39.tmp
+            [error] => 0
+            [size] => 1209
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => MovieClipContainer.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php5979.tmp
+            [error] => 0
+            [size] => 1209
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => MovieClipContainer.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php61B4.tmp
+            [error] => 0
+            [size] => 1209
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => MovieClipContainer.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php6483.tmp
+            [error] => 0
+            [size] => 1209
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => MovieClipContainer.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php6648.tmp
+            [error] => 0
+            [size] => 1209
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => MovieClipContainer.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php66C6.tmp
+            [error] => 0
+            [size] => 1209
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => TextLoader.fla
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpA5D9.tmp
+            [error] => 0
+            [size] => 250368
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => TextLoader.fla
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php8466.tmp
+            [error] => 0
+            [size] => 250368
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => MovieClipContainer.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpB630.tmp
+            [error] => 0
+            [size] => 1209
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => Rock.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php122B.tmp
+            [error] => 0
+            [size] => 282
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => Rock.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php22A0.tmp
+            [error] => 0
+            [size] => 282
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => Rock.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php2659.tmp
+            [error] => 0
+            [size] => 282
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => Rock.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php282E.tmp
+            [error] => 0
+            [size] => 282
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => Rock.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php28BB.tmp
+            [error] => 0
+            [size] => 282
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => Rock.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php2958.tmp
+            [error] => 0
+            [size] => 282
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => Rock.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php29E5.tmp
+            [error] => 0
+            [size] => 282
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => Rock.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php2A73.tmp
+            [error] => 0
+            [size] => 282
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => rakieta.swf
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php61A7.tmp
+            [error] => 0
+            [size] => 1004
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => CreateElements.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpB811.tmp
+            [error] => 0
+            [size] => 414
+        )
+
+)
+Array
+(
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => FlashDevelop-3.0.0-RC2.exe
+            [type] => 
+            [tmp_name] => 
+            [error] => 1
+            [size] => 0
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => panorama.html
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpBAA3.tmp
+            [error] => 0
+            [size] => 2001
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => FileReferenceListExample.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpBAA4.tmp
+            [error] => 0
+            [size] => 4885
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => panorama.fla
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpBAC4.tmp
+            [error] => 0
+            [size] => 256512
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => CreateElements.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php2135.tmp
+            [error] => 0
+            [size] => 414
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => AC_RunActiveContent.js
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php2145.tmp
+            [error] => 0
+            [size] => 8321
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => FileReferenceListExample.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php2156.tmp
+            [error] => 0
+            [size] => 4885
+        )
+
+)
+Array
+(
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => panorama.html
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php2186.tmp
+            [error] => 0
+            [size] => 2001
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => Rakieta.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php2196.tmp
+            [error] => 0
+            [size] => 1273
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => astro.zip
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php21B6.tmp
+            [error] => 0
+            [size] => 5182
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => rakieta.swf
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php21B7.tmp
+            [error] => 0
+            [size] => 1004
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => test.fla
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php21C8.tmp
+            [error] => 0
+            [size] => 21504
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => FlashDevelop-3.0.0-RC2.exe
+            [type] => 
+            [tmp_name] => 
+            [error] => 1
+            [size] => 0
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => panorama.fla
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php2295.tmp
+            [error] => 0
+            [size] => 256512
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => Rock.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php22A5.tmp
+            [error] => 0
+            [size] => 282
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => Untitled Flash Project.flp
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php22B6.tmp
+            [error] => 0
+            [size] => 80
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => panorama.swf
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php22B7.tmp
+            [error] => 0
+            [size] => 199718
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => rakieta.fla
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php22F6.tmp
+            [error] => 0
+            [size] => 43520
+        )
+
+)
+Array
+(
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => panorama.html
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpE00F.tmp
+            [error] => 0
+            [size] => 2001
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => panorama.fla
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpE01F.tmp
+            [error] => 0
+            [size] => 256512
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => panorama.swf
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpE040.tmp
+            [error] => 0
+            [size] => 199718
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => CreateElements.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php15F0.tmp
+            [error] => 0
+            [size] => 414
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => astro.zip
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php1602.tmp
+            [error] => 0
+            [size] => 5182
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => panorama.fla
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php1603.tmp
+            [error] => 0
+            [size] => 256512
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => panorama.swf
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php1623.tmp
+            [error] => 0
+            [size] => 199718
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => FileReferenceListExample.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php1653.tmp
+            [error] => 0
+            [size] => 4885
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => AC_RunActiveContent.js
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php1654.tmp
+            [error] => 0
+            [size] => 8321
+        )
+
+)
+Array
+(
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => FlashDevelop-3.0.0-RC2.exe
+            [type] => 
+            [tmp_name] => 
+            [error] => 1
+            [size] => 0
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => panorama.html
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php172F.tmp
+            [error] => 0
+            [size] => 2001
+        )
+
+)
+Array
+(
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => FlashDevelop-3.0.0-RC2.exe
+            [type] => 
+            [tmp_name] => 
+            [error] => 1
+            [size] => 0
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => panorama.html
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpA27.tmp
+            [error] => 0
+            [size] => 2001
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => panorama.swf
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpA38.tmp
+            [error] => 0
+            [size] => 199718
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => panorama.fla
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpA48.tmp
+            [error] => 0
+            [size] => 256512
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => AC_RunActiveContent.js
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php26ED.tmp
+            [error] => 0
+            [size] => 8321
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => CreateElements.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php270D.tmp
+            [error] => 0
+            [size] => 414
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => astro.zip
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php270E.tmp
+            [error] => 0
+            [size] => 5182
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => FileReferenceListExample.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php2720.tmp
+            [error] => 0
+            [size] => 4885
+        )
+
+)
+Array
+(
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => FlashDevelop-3.0.0-RC2.exe
+            [type] => 
+            [tmp_name] => 
+            [error] => 1
+            [size] => 0
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => AC_RunActiveContent.js
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpDB33.tmp
+            [error] => 0
+            [size] => 8321
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => AC_RunActiveContent.js
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpE468.tmp
+            [error] => 0
+            [size] => 8321
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => AC_RunActiveContent.js
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpE6F8.tmp
+            [error] => 0
+            [size] => 8321
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => AC_RunActiveContent.js
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpED30.tmp
+            [error] => 0
+            [size] => 8321
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => FlashDevelop-3.0.0-RC2.exe
+            [type] => 
+            [tmp_name] => 
+            [error] => 1
+            [size] => 0
+        )
+
+)
+Array
+(
+)
+Array
+(
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => CreateElements.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php605F.tmp
+            [error] => 0
+            [size] => 414
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => panorama.fla
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php6070.tmp
+            [error] => 0
+            [size] => 256512
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => astro.zip
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php6081.tmp
+            [error] => 0
+            [size] => 5182
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => FileReferenceListExample.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php6082.tmp
+            [error] => 0
+            [size] => 4885
+        )
+
+)
+Array
+(
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => FlashDevelop-3.0.0-RC2.exe
+            [type] => 
+            [tmp_name] => 
+            [error] => 1
+            [size] => 0
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => panorama.html
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php619C.tmp
+            [error] => 0
+            [size] => 2001
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => FileReferenceListExample.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpE730.tmp
+            [error] => 0
+            [size] => 4885
+        )
+
+)
+Array
+(
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => FlashDevelop-3.0.0-RC2.exe
+            [type] => 
+            [tmp_name] => 
+            [error] => 1
+            [size] => 0
+        )
+
+)
+Array
+(
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => panorama.fla
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php38CB.tmp
+            [error] => 0
+            [size] => 256512
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => FlashDevelop-3.0.0-RC2.exe
+            [type] => 
+            [tmp_name] => 
+            [error] => 1
+            [size] => 0
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => FileReferenceListExample.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php9677.tmp
+            [error] => 0
+            [size] => 4885
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => CreateElements.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php9678.tmp
+            [error] => 0
+            [size] => 414
+        )
+
+)
+Array
+(
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => FlashDevelop-3.0.0-RC2.exe
+            [type] => 
+            [tmp_name] => 
+            [error] => 1
+            [size] => 0
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => AC_RunActiveContent.js
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php145F.tmp
+            [error] => 0
+            [size] => 8321
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => FileReferenceListExample.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php1470.tmp
+            [error] => 0
+            [size] => 4885
+        )
+
+)
+Array
+(
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => astro.zip
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php1480.tmp
+            [error] => 0
+            [size] => 5182
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => FlashDevelop-3.0.0-RC2.exe
+            [type] => 
+            [tmp_name] => 
+            [error] => 1
+            [size] => 0
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => CreateElements.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php14FF.tmp
+            [error] => 0
+            [size] => 414
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => panorama.html
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php1510.tmp
+            [error] => 0
+            [size] => 2001
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => panorama.swf
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php1511.tmp
+            [error] => 0
+            [size] => 199718
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => Rakieta.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php1521.tmp
+            [error] => 0
+            [size] => 1273
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => rakieta.fla
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php1522.tmp
+            [error] => 0
+            [size] => 43520
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => panorama.fla
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php1523.tmp
+            [error] => 0
+            [size] => 256512
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => Rock.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php1534.tmp
+            [error] => 0
+            [size] => 282
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => rakieta.swf
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php1535.tmp
+            [error] => 0
+            [size] => 1004
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => CreateElements.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php8D42.tmp
+            [error] => 0
+            [size] => 414
+        )
+
+)
+Array
+(
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => FlashDevelop-3.0.0-RC2.exe
+            [type] => 
+            [tmp_name] => 
+            [error] => 1
+            [size] => 0
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => FileReferenceListExample.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php8DFF.tmp
+            [error] => 0
+            [size] => 4885
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => panorama.fla
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php8E00.tmp
+            [error] => 0
+            [size] => 256512
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => panorama.fla
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php7EE4.tmp
+            [error] => 0
+            [size] => 256512
+        )
+
+)
+Array
+(
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => FlashDevelop-3.0.0-RC2.exe
+            [type] => 
+            [tmp_name] => 
+            [error] => 1
+            [size] => 0
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => astro.zip
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpBA61.tmp
+            [error] => 0
+            [size] => 5182
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => panorama.fla
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpBA72.tmp
+            [error] => 0
+            [size] => 256512
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => panorama.swf
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpBA82.tmp
+            [error] => 0
+            [size] => 199718
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => rakieta.fla
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpBA93.tmp
+            [error] => 0
+            [size] => 43520
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => CreateElements.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpBA94.tmp
+            [error] => 0
+            [size] => 414
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => Rock.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpBAA4.tmp
+            [error] => 0
+            [size] => 282
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => FileReferenceListExample.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpBAA5.tmp
+            [error] => 0
+            [size] => 4885
+        )
+
+)
+Array
+(
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => FlashDevelop-3.0.0-RC2.exe
+            [type] => 
+            [tmp_name] => 
+            [error] => 1
+            [size] => 0
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => panorama.html
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpBB04.tmp
+            [error] => 0
+            [size] => 2001
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => Rakieta.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpBB05.tmp
+            [error] => 0
+            [size] => 1273
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => rakieta.swf
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpBB16.tmp
+            [error] => 0
+            [size] => 1004
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => CreateElements.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php9FAB.tmp
+            [error] => 0
+            [size] => 414
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => AC_RunActiveContent.js
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php9FAC.tmp
+            [error] => 0
+            [size] => 8321
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => panorama.fla
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php9FBC.tmp
+            [error] => 0
+            [size] => 256512
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => astro.zip
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php9FCD.tmp
+            [error] => 0
+            [size] => 5182
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => FileReferenceListExample.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php9FDE.tmp
+            [error] => 0
+            [size] => 4885
+        )
+
+)
+Array
+(
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => FlashDevelop-3.0.0-RC2.exe
+            [type] => 
+            [tmp_name] => 
+            [error] => 1
+            [size] => 0
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => CreateElements.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpA971.tmp
+            [error] => 0
+            [size] => 414
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => panorama.fla
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpA9A1.tmp
+            [error] => 0
+            [size] => 256512
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => astro.zip
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpA9C2.tmp
+            [error] => 0
+            [size] => 5182
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => FileReferenceListExample.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpA9D2.tmp
+            [error] => 0
+            [size] => 4885
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => panorama.swf
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpA9F2.tmp
+            [error] => 0
+            [size] => 199718
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => rakieta.fla
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpAA22.tmp
+            [error] => 0
+            [size] => 43520
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => Rock.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpAA33.tmp
+            [error] => 0
+            [size] => 282
+        )
+
+)
+Array
+(
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => FlashDevelop-3.0.0-RC2.exe
+            [type] => 
+            [tmp_name] => 
+            [error] => 1
+            [size] => 0
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => panorama.html
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpAA72.tmp
+            [error] => 0
+            [size] => 2001
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => Rakieta.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpAA73.tmp
+            [error] => 0
+            [size] => 1273
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => rakieta.swf
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpAA74.tmp
+            [error] => 0
+            [size] => 1004
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => AC_RunActiveContent.js
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php5248.tmp
+            [error] => 0
+            [size] => 8321
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => CreateElements.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php5249.tmp
+            [error] => 0
+            [size] => 414
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => astro.zip
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php525A.tmp
+            [error] => 0
+            [size] => 5182
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => panorama.fla
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php526B.tmp
+            [error] => 0
+            [size] => 256512
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => panorama.swf
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php527C.tmp
+            [error] => 0
+            [size] => 199718
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => FileReferenceListExample.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php52EA.tmp
+            [error] => 0
+            [size] => 4885
+        )
+
+)
+Array
+(
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => FlashDevelop-3.0.0-RC2.exe
+            [type] => 
+            [tmp_name] => 
+            [error] => 1
+            [size] => 0
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => panorama.html
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php52FB.tmp
+            [error] => 0
+            [size] => 2001
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => Rakieta.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpDBE9.tmp
+            [error] => 0
+            [size] => 1273
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => FileReferenceListExample.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpF7.tmp
+            [error] => 0
+            [size] => 4885
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => panorama.fla
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php107.tmp
+            [error] => 0
+            [size] => 256512
+        )
+
+)
+Array
+(
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => panorama.swf
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php118.tmp
+            [error] => 0
+            [size] => 199718
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => FlashDevelop-3.0.0-RC2.exe
+            [type] => 
+            [tmp_name] => 
+            [error] => 1
+            [size] => 0
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => rakieta.fla
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php2CF.tmp
+            [error] => 0
+            [size] => 43520
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => panorama.html
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php2DF.tmp
+            [error] => 0
+            [size] => 2001
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => Rakieta.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php2E0.tmp
+            [error] => 0
+            [size] => 1273
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => astro.zip
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpFBC0.tmp
+            [error] => 0
+            [size] => 5182
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => AC_RunActiveContent.js
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpFBD1.tmp
+            [error] => 0
+            [size] => 8321
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => Rakieta.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpFBD2.tmp
+            [error] => 0
+            [size] => 1273
+        )
+
+)
+Array
+(
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => FileReferenceListExample.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpFBF2.tmp
+            [error] => 0
+            [size] => 4885
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => panorama.html
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpFBF3.tmp
+            [error] => 0
+            [size] => 2001
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => CreateElements.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpFC23.tmp
+            [error] => 0
+            [size] => 414
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => FlashDevelop-3.0.0-RC2.exe
+            [type] => 
+            [tmp_name] => 
+            [error] => 1
+            [size] => 0
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => panorama.fla
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpFCFF.tmp
+            [error] => 0
+            [size] => 256512
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => panorama.swf
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpFD1F.tmp
+            [error] => 0
+            [size] => 199718
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => CreateElements.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpFB3E.tmp
+            [error] => 0
+            [size] => 414
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => astro.zip
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpFB3D.tmp
+            [error] => 0
+            [size] => 5182
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => FileReferenceListExample.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpFB50.tmp
+            [error] => 0
+            [size] => 4885
+        )
+
+)
+Array
+(
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => FlashDevelop-3.0.0-RC2.exe
+            [type] => 
+            [tmp_name] => 
+            [error] => 1
+            [size] => 0
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => CreateElements.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php2A2D.tmp
+            [error] => 0
+            [size] => 414
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => FileReferenceListExample.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php2A5E.tmp
+            [error] => 0
+            [size] => 4885
+        )
+
+)
+Array
+(
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => FlashDevelop-3.0.0-RC2.exe
+            [type] => 
+            [tmp_name] => 
+            [error] => 1
+            [size] => 0
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => astro.zip
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php2AEB.tmp
+            [error] => 0
+            [size] => 5182
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => CreateElements.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php8664.tmp
+            [error] => 0
+            [size] => 414
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => astro.zip
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php8665.tmp
+            [error] => 0
+            [size] => 5182
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => FileReferenceListExample.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php8676.tmp
+            [error] => 0
+            [size] => 4885
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => panorama.fla
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php8677.tmp
+            [error] => 0
+            [size] => 256512
+        )
+
+)
+Array
+(
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => panorama.html
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php88AA.tmp
+            [error] => 0
+            [size] => 2001
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => FlashDevelop-3.0.0-RC2.exe
+            [type] => 
+            [tmp_name] => 
+            [error] => 1
+            [size] => 0
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => CreateElements.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php3B66.tmp
+            [error] => 0
+            [size] => 414
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => astro.zip
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php3B67.tmp
+            [error] => 0
+            [size] => 5182
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => FileReferenceListExample.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php3B68.tmp
+            [error] => 0
+            [size] => 4885
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => panorama.fla
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php3B79.tmp
+            [error] => 0
+            [size] => 256512
+        )
+
+)
+Array
+(
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => FlashDevelop-3.0.0-RC2.exe
+            [type] => 
+            [tmp_name] => 
+            [error] => 1
+            [size] => 0
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => panorama.html
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php3C27.tmp
+            [error] => 0
+            [size] => 2001
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => FlashDevelop-3.0.0-RC2.exe
+            [type] => 
+            [tmp_name] => 
+            [error] => 1
+            [size] => 0
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => astro.zip
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php8AF4.tmp
+            [error] => 0
+            [size] => 5182
+        )
+
+)
+Array
+(
+)
+Array
+(
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => astro.zip
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpC2F5.tmp
+            [error] => 0
+            [size] => 5182
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => CreateElements.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php2793.tmp
+            [error] => 0
+            [size] => 414
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => panorama.html
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php27A3.tmp
+            [error] => 0
+            [size] => 2001
+        )
+
+)
+Array
+(
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => panorama.fla
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php2792.tmp
+            [error] => 0
+            [size] => 256512
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => FileReferenceListExample.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php27E3.tmp
+            [error] => 0
+            [size] => 4885
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => astro.zip
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php27F3.tmp
+            [error] => 0
+            [size] => 5182
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => FlashDevelop-3.0.0-RC2.exe
+            [type] => 
+            [tmp_name] => 
+            [error] => 1
+            [size] => 0
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => AC_RunActiveContent.js
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpE24F.tmp
+            [error] => 0
+            [size] => 8321
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => FileReferenceListExample.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpE25F.tmp
+            [error] => 0
+            [size] => 4885
+        )
+
+)
+Array
+(
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => astro.zip
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpE260.tmp
+            [error] => 0
+            [size] => 5182
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => panorama.html
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpE261.tmp
+            [error] => 0
+            [size] => 2001
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => CreateElements.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpE34C.tmp
+            [error] => 0
+            [size] => 414
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => FlashDevelop-3.0.0-RC2.exe
+            [type] => 
+            [tmp_name] => 
+            [error] => 1
+            [size] => 0
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => panorama.fla
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpE477.tmp
+            [error] => 0
+            [size] => 256512
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => panorama.swf
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpE487.tmp
+            [error] => 0
+            [size] => 199718
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => FileReferenceListExample.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php1A86.tmp
+            [error] => 0
+            [size] => 4885
+        )
+
+)
+Array
+(
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => FlashDevelop-3.0.0-RC2.exe
+            [type] => 
+            [tmp_name] => 
+            [error] => 1
+            [size] => 0
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => panorama.fla
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php1B14.tmp
+            [error] => 0
+            [size] => 256512
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => FileReferenceListExample.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpA25.tmp
+            [error] => 0
+            [size] => 4885
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => astro.zip
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpA26.tmp
+            [error] => 0
+            [size] => 5182
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => CreateElements.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpA27.tmp
+            [error] => 0
+            [size] => 414
+        )
+
+)
+Array
+(
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => panorama.swf
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpA56.tmp
+            [error] => 0
+            [size] => 199718
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => panorama.html
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpA67.tmp
+            [error] => 0
+            [size] => 2001
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => panorama.fla
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpA68.tmp
+            [error] => 0
+            [size] => 256512
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => FlashDevelop-3.0.0-RC2.exe
+            [type] => 
+            [tmp_name] => 
+            [error] => 1
+            [size] => 0
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => Rakieta.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpB06.tmp
+            [error] => 0
+            [size] => 1273
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => AC_RunActiveContent.js
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php4078.tmp
+            [error] => 0
+            [size] => 8321
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => CreateElements.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php4089.tmp
+            [error] => 0
+            [size] => 414
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => panorama.fla
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php409A.tmp
+            [error] => 0
+            [size] => 256512
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => panorama.swf
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php4118.tmp
+            [error] => 0
+            [size] => 199718
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => FlashDevelop-3.0.0-RC2.exe
+            [type] => 
+            [tmp_name] => 
+            [error] => 1
+            [size] => 0
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => rakieta.fla
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php4149.tmp
+            [error] => 0
+            [size] => 43520
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => astro.zip
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php4148.tmp
+            [error] => 0
+            [size] => 5182
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => FileReferenceListExample.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php415A.tmp
+            [error] => 0
+            [size] => 4885
+        )
+
+)
+Array
+(
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => panorama.html
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php416A.tmp
+            [error] => 0
+            [size] => 2001
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => Rakieta.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php416B.tmp
+            [error] => 0
+            [size] => 1273
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => rakieta.swf
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php416C.tmp
+            [error] => 0
+            [size] => 1004
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => AC_RunActiveContent.js
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php96DD.tmp
+            [error] => 0
+            [size] => 8321
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => AC_RunActiveContent.js
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpC119.tmp
+            [error] => 0
+            [size] => 8321
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => astro.zip
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php9E6D.tmp
+            [error] => 0
+            [size] => 5182
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => panorama.html
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpEA6B.tmp
+            [error] => 0
+            [size] => 2001
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => FileReferenceListExample.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php5511.tmp
+            [error] => 0
+            [size] => 4885
+        )
+
+)
+Array
+(
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => FlashDevelop-3.0.0-RC2.exe
+            [type] => 
+            [tmp_name] => 
+            [error] => 1
+            [size] => 0
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => panorama.fla
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php5792.tmp
+            [error] => 0
+            [size] => 256512
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => CreateElements.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpFFD3.tmp
+            [error] => 0
+            [size] => 414
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => FileReferenceListExample.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php23.tmp
+            [error] => 0
+            [size] => 4885
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => panorama.fla
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php34.tmp
+            [error] => 0
+            [size] => 256512
+        )
+
+)
+Array
+(
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => FlashDevelop-3.0.0-RC2.exe
+            [type] => 
+            [tmp_name] => 
+            [error] => 1
+            [size] => 0
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => astro.zip
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpAB23.tmp
+            [error] => 0
+            [size] => 5182
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => FileReferenceListExample.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpAB35.tmp
+            [error] => 0
+            [size] => 4885
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => CreateElements.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpAB24.tmp
+            [error] => 0
+            [size] => 414
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => panorama.fla
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpAB65.tmp
+            [error] => 0
+            [size] => 256512
+        )
+
+)
+Array
+(
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => FlashDevelop-3.0.0-RC2.exe
+            [type] => 
+            [tmp_name] => 
+            [error] => 1
+            [size] => 0
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => panorama.html
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpACBE.tmp
+            [error] => 0
+            [size] => 2001
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => FileReferenceListExample.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php9D07.tmp
+            [error] => 0
+            [size] => 4885
+        )
+
+)
+Array
+(
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => panorama.fla
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php9D06.tmp
+            [error] => 0
+            [size] => 256512
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => FlashDevelop-3.0.0-RC2.exe
+            [type] => 
+            [tmp_name] => 
+            [error] => 1
+            [size] => 0
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => panorama.html
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php9E12.tmp
+            [error] => 0
+            [size] => 2001
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => panorama.swf
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php9E13.tmp
+            [error] => 0
+            [size] => 199718
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => astro.zip
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php9D.tmp
+            [error] => 0
+            [size] => 5182
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => FileReferenceListExample.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpAE.tmp
+            [error] => 0
+            [size] => 4885
+        )
+
+)
+Array
+(
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => FlashDevelop-3.0.0-RC2.exe
+            [type] => 
+            [tmp_name] => 
+            [error] => 1
+            [size] => 0
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => CreateElements.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php16B.tmp
+            [error] => 0
+            [size] => 414
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => astro.zip
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpD1D5.tmp
+            [error] => 0
+            [size] => 5182
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => CreateElements.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpD1E5.tmp
+            [error] => 0
+            [size] => 414
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => panorama.html
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpD1F6.tmp
+            [error] => 0
+            [size] => 2001
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => FileReferenceListExample.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpD1F7.tmp
+            [error] => 0
+            [size] => 4885
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => panorama.swf
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpD1F8.tmp
+            [error] => 0
+            [size] => 199718
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => panorama.fla
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpD1F9.tmp
+            [error] => 0
+            [size] => 256512
+        )
+
+)
+Array
+(
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => FlashDevelop-3.0.0-RC2.exe
+            [type] => 
+            [tmp_name] => 
+            [error] => 1
+            [size] => 0
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => panorama.fla
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpCF9B.tmp
+            [error] => 0
+            [size] => 256512
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => astro.zip
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpBB03.tmp
+            [error] => 0
+            [size] => 5182
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => panorama.swf
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpBB14.tmp
+            [error] => 0
+            [size] => 199718
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => FileReferenceListExample.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpBB25.tmp
+            [error] => 0
+            [size] => 4885
+        )
+
+)
+Array
+(
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => CreateElements.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpBB15.tmp
+            [error] => 0
+            [size] => 414
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => panorama.html
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpBB36.tmp
+            [error] => 0
+            [size] => 2001
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => panorama.fla
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpBB46.tmp
+            [error] => 0
+            [size] => 256512
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => FlashDevelop-3.0.0-RC2.exe
+            [type] => 
+            [tmp_name] => 
+            [error] => 1
+            [size] => 0
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => AC_RunActiveContent.js
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpBD2C.tmp
+            [error] => 0
+            [size] => 8321
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => astro.zip
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php4A3F.tmp
+            [error] => 0
+            [size] => 5182
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => CreateElements.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php4A50.tmp
+            [error] => 0
+            [size] => 414
+        )
+
+)
+Array
+(
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => AC_RunActiveContent.js
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php4A60.tmp
+            [error] => 0
+            [size] => 8321
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => panorama.html
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php4A71.tmp
+            [error] => 0
+            [size] => 2001
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => Rakieta.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php4A72.tmp
+            [error] => 0
+            [size] => 1273
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => FileReferenceListExample.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php4A83.tmp
+            [error] => 0
+            [size] => 4885
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => FlashDevelop-3.0.0-RC2.exe
+            [type] => 
+            [tmp_name] => 
+            [error] => 1
+            [size] => 0
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => panorama.fla
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php4B30.tmp
+            [error] => 0
+            [size] => 256512
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => panorama.swf
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php4B31.tmp
+            [error] => 0
+            [size] => 199718
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => rakieta.fla
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php4B42.tmp
+            [error] => 0
+            [size] => 43520
+        )
+
+)
+Array
+(
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => FlashDevelop-3.0.0-RC2.exe
+            [type] => 
+            [tmp_name] => 
+            [error] => 1
+            [size] => 0
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => panorama.fla
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php7734.tmp
+            [error] => 0
+            [size] => 256512
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => panorama.swf
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php7754.tmp
+            [error] => 0
+            [size] => 199718
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => FileReferenceListExample.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php7774.tmp
+            [error] => 0
+            [size] => 4885
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => CreateElements.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php7775.tmp
+            [error] => 0
+            [size] => 414
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => panorama.html
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php7786.tmp
+            [error] => 0
+            [size] => 2001
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => Rakieta.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php7797.tmp
+            [error] => 0
+            [size] => 1273
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => AC_RunActiveContent.js
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php2D31.tmp
+            [error] => 0
+            [size] => 8321
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => astro.zip
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php2D30.tmp
+            [error] => 0
+            [size] => 5182
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => panorama.fla
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpBEE7.tmp
+            [error] => 0
+            [size] => 256512
+        )
+
+)
+Array
+(
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => FlashDevelop-3.0.0-RC2.exe
+            [type] => 
+            [tmp_name] => 
+            [error] => 1
+            [size] => 0
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => AC_RunActiveContent.js
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpE923.tmp
+            [error] => 0
+            [size] => 8321
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => FileReferenceListExample.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpE934.tmp
+            [error] => 0
+            [size] => 4885
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => astro.zip
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpE955.tmp
+            [error] => 0
+            [size] => 5182
+        )
+
+)
+Array
+(
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => FlashDevelop-3.0.0-RC2.exe
+            [type] => 
+            [tmp_name] => 
+            [error] => 1
+            [size] => 0
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => CreateElements.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpEA40.tmp
+            [error] => 0
+            [size] => 414
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => FileReferenceListExample.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php2D29.tmp
+            [error] => 0
+            [size] => 4885
+        )
+
+)
+Array
+(
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => FlashDevelop-3.0.0-RC2.exe
+            [type] => 
+            [tmp_name] => 
+            [error] => 1
+            [size] => 0
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => CreateElements.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php28A9.tmp
+            [error] => 0
+            [size] => 414
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => astro.zip
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php28AA.tmp
+            [error] => 0
+            [size] => 5182
+        )
+
+)
+Array
+(
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => FileReferenceListExample.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php28DA.tmp
+            [error] => 0
+            [size] => 4885
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => FlashDevelop-3.0.0-RC2.exe
+            [type] => 
+            [tmp_name] => 
+            [error] => 1
+            [size] => 0
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => astro.zip
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php33C4.tmp
+            [error] => 0
+            [size] => 5182
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => CreateElements.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php33D5.tmp
+            [error] => 0
+            [size] => 414
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => AC_RunActiveContent.js
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php33D6.tmp
+            [error] => 0
+            [size] => 8321
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => FileReferenceListExample.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php33E7.tmp
+            [error] => 0
+            [size] => 4885
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => FlashDevelop-3.0.0-RC2.exe
+            [type] => 
+            [tmp_name] => 
+            [error] => 1
+            [size] => 0
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => astro.zip
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php28D1.tmp
+            [error] => 0
+            [size] => 5182
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => FileReferenceListExample.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php28D2.tmp
+            [error] => 0
+            [size] => 4885
+        )
+
+)
+Array
+(
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => panorama.html
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php28E3.tmp
+            [error] => 0
+            [size] => 2001
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => Rakieta.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php28F4.tmp
+            [error] => 0
+            [size] => 1273
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => CreateElements.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php2904.tmp
+            [error] => 0
+            [size] => 414
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => FlashDevelop-3.0.0-RC2.exe
+            [type] => 
+            [tmp_name] => 
+            [error] => 1
+            [size] => 0
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => rakieta.fla
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php29A2.tmp
+            [error] => 0
+            [size] => 43520
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => panorama.fla
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php29A3.tmp
+            [error] => 0
+            [size] => 256512
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => panorama.swf
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php29B4.tmp
+            [error] => 0
+            [size] => 199718
+        )
+
+)
+Array
+(
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => FlashDevelop-3.0.0-RC2.exe
+            [type] => 
+            [tmp_name] => 
+            [error] => 1
+            [size] => 0
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => astro.zip
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php4C82.tmp
+            [error] => 0
+            [size] => 5182
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => FileReferenceListExample.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php4C83.tmp
+            [error] => 0
+            [size] => 4885
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => panorama.swf
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php4CA4.tmp
+            [error] => 0
+            [size] => 199718
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => panorama.fla
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php4CD4.tmp
+            [error] => 0
+            [size] => 256512
+        )
+
+)
+Array
+(
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => FlashDevelop-3.0.0-RC2.exe
+            [type] => 
+            [tmp_name] => 
+            [error] => 1
+            [size] => 0
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => CreateElements.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php4E89.tmp
+            [error] => 0
+            [size] => 414
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => panorama.html
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php4E8A.tmp
+            [error] => 0
+            [size] => 2001
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => Rakieta.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php4E9B.tmp
+            [error] => 0
+            [size] => 1273
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => Rakieta.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php7733.tmp
+            [error] => 0
+            [size] => 1273
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => astro.zip
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php7732.tmp
+            [error] => 0
+            [size] => 5182
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => panorama.fla
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php7764.tmp
+            [error] => 0
+            [size] => 256512
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => CreateElements.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php77A3.tmp
+            [error] => 0
+            [size] => 414
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => FlashDevelop-3.0.0-RC2.exe
+            [type] => 
+            [tmp_name] => 
+            [error] => 1
+            [size] => 0
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => CreateElements.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php876D.tmp
+            [error] => 0
+            [size] => 414
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => Rakieta.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php878E.tmp
+            [error] => 0
+            [size] => 1273
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => FlashDevelop-3.0.0-RC2.exe
+            [type] => 
+            [tmp_name] => 
+            [error] => 1
+            [size] => 0
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => Rakieta.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpB42A.tmp
+            [error] => 0
+            [size] => 1273
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => CreateElements.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpB42B.tmp
+            [error] => 0
+            [size] => 414
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => CreateElements.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpBAD0.tmp
+            [error] => 0
+            [size] => 414
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => Rakieta.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpBAE1.tmp
+            [error] => 0
+            [size] => 1273
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => CreateElements.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpBE8A.tmp
+            [error] => 0
+            [size] => 414
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => Rakieta.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpBEAA.tmp
+            [error] => 0
+            [size] => 1273
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => CreateElements.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpC88A.tmp
+            [error] => 0
+            [size] => 414
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => CreateElements.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpCBC6.tmp
+            [error] => 0
+            [size] => 414
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => CreateElements.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpCD9B.tmp
+            [error] => 0
+            [size] => 414
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => CreateElements.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpCE29.tmp
+            [error] => 0
+            [size] => 414
+        )
+
+)
+Array
+(
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => astro.zip
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpEB97.tmp
+            [error] => 0
+            [size] => 5182
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => FileReferenceListExample.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpEBC7.tmp
+            [error] => 0
+            [size] => 4885
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => panorama.html
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpEBC8.tmp
+            [error] => 0
+            [size] => 2001
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => rakieta.fla
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpEBE8.tmp
+            [error] => 0
+            [size] => 43520
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => rakieta.swf
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpEBE9.tmp
+            [error] => 0
+            [size] => 1004
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => FlashDevelop-3.0.0-RC2.exe
+            [type] => 
+            [tmp_name] => 
+            [error] => 1
+            [size] => 0
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => panorama.swf
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpED23.tmp
+            [error] => 0
+            [size] => 199718
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => Rock.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpED43.tmp
+            [error] => 0
+            [size] => 282
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => Untitled Flash Project.flp
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpED54.tmp
+            [error] => 0
+            [size] => 80
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => CreateElements.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpED55.tmp
+            [error] => 0
+            [size] => 414
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => AC_RunActiveContent.js
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpED65.tmp
+            [error] => 0
+            [size] => 8321
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => Rakieta.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpED76.tmp
+            [error] => 0
+            [size] => 1273
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => panorama.fla
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpED87.tmp
+            [error] => 0
+            [size] => 256512
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => test.fla
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpEDE5.tmp
+            [error] => 0
+            [size] => 21504
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => astro.zip
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php380F.tmp
+            [error] => 0
+            [size] => 5182
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => CreateElements.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php3820.tmp
+            [error] => 0
+            [size] => 414
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => FileReferenceListExample.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php3832.tmp
+            [error] => 0
+            [size] => 4885
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => panorama.swf
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php3821.tmp
+            [error] => 0
+            [size] => 199718
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => AC_RunActiveContent.js
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php3834.tmp
+            [error] => 0
+            [size] => 8321
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => rakieta.fla
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php3844.tmp
+            [error] => 0
+            [size] => 43520
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => panorama.fla
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php3833.tmp
+            [error] => 0
+            [size] => 256512
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => Rakieta.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php3856.tmp
+            [error] => 0
+            [size] => 1273
+        )
+
+)
+Array
+(
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => FlashDevelop-3.0.0-RC2.exe
+            [type] => 
+            [tmp_name] => 
+            [error] => 1
+            [size] => 0
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => Rock.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php3902.tmp
+            [error] => 0
+            [size] => 282
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => rakieta.swf
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php3913.tmp
+            [error] => 0
+            [size] => 1004
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => test.fla
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php3914.tmp
+            [error] => 0
+            [size] => 21504
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => Untitled Flash Project.flp
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php3915.tmp
+            [error] => 0
+            [size] => 80
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => panorama.html
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php3926.tmp
+            [error] => 0
+            [size] => 2001
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => AC_RunActiveContent.js
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php9E5E.tmp
+            [error] => 0
+            [size] => 8321
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => FileReferenceListExample.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php9E60.tmp
+            [error] => 0
+            [size] => 4885
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => astro.zip
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php9E5F.tmp
+            [error] => 0
+            [size] => 5182
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => CreateElements.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php9E71.tmp
+            [error] => 0
+            [size] => 414
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => panorama.html
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php9E72.tmp
+            [error] => 0
+            [size] => 2001
+        )
+
+)
+Array
+(
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => FlashDevelop-3.0.0-RC2.exe
+            [type] => 
+            [tmp_name] => 
+            [error] => 1
+            [size] => 0
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => panorama.fla
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php9F4E.tmp
+            [error] => 0
+            [size] => 256512
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => panorama.swf
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php9F6F.tmp
+            [error] => 0
+            [size] => 199718
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => rakieta.fla
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php9F7F.tmp
+            [error] => 0
+            [size] => 43520
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => Untitled Flash Project.flp
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php9F90.tmp
+            [error] => 0
+            [size] => 80
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => Rock.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php9F91.tmp
+            [error] => 0
+            [size] => 282
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => test.fla
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php9F92.tmp
+            [error] => 0
+            [size] => 21504
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => rakieta.swf
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php9FA2.tmp
+            [error] => 0
+            [size] => 1004
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => Rakieta.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php9FA3.tmp
+            [error] => 0
+            [size] => 1273
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => AC_RunActiveContent.js
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpDAA2.tmp
+            [error] => 0
+            [size] => 8321
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => CreateElements.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpDAB3.tmp
+            [error] => 0
+            [size] => 414
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => astro.zip
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpDAA1.tmp
+            [error] => 0
+            [size] => 5182
+        )
+
+)
+Array
+(
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => FlashDevelop-3.0.0-RC2.exe
+            [type] => 
+            [tmp_name] => 
+            [error] => 1
+            [size] => 0
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => panorama.html
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpDBAF.tmp
+            [error] => 0
+            [size] => 2001
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => Rakieta.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpDBB0.tmp
+            [error] => 0
+            [size] => 1273
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => rakieta.swf
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpDBB1.tmp
+            [error] => 0
+            [size] => 1004
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => test.fla
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpDBC1.tmp
+            [error] => 0
+            [size] => 21504
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => FileReferenceListExample.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpDBC2.tmp
+            [error] => 0
+            [size] => 4885
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => panorama.fla
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpDBD3.tmp
+            [error] => 0
+            [size] => 256512
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => panorama.swf
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpDC03.tmp
+            [error] => 0
+            [size] => 199718
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => rakieta.fla
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpDC32.tmp
+            [error] => 0
+            [size] => 43520
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => Rock.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpDC33.tmp
+            [error] => 0
+            [size] => 282
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => Untitled Flash Project.flp
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpDC34.tmp
+            [error] => 0
+            [size] => 80
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => AC_RunActiveContent.js
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php22F5.tmp
+            [error] => 0
+            [size] => 8321
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => panorama.html
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php2307.tmp
+            [error] => 0
+            [size] => 2001
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => CreateElements.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php2308.tmp
+            [error] => 0
+            [size] => 414
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => astro.zip
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php22F6.tmp
+            [error] => 0
+            [size] => 5182
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => FileReferenceListExample.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php2348.tmp
+            [error] => 0
+            [size] => 4885
+        )
+
+)
+Array
+(
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => FlashDevelop-3.0.0-RC2.exe
+            [type] => 
+            [tmp_name] => 
+            [error] => 1
+            [size] => 0
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => Rakieta.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php2433.tmp
+            [error] => 0
+            [size] => 1273
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => rakieta.swf
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php2444.tmp
+            [error] => 0
+            [size] => 1004
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => test.fla
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php2445.tmp
+            [error] => 0
+            [size] => 21504
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => panorama.fla
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php2446.tmp
+            [error] => 0
+            [size] => 256512
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => panorama.swf
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php2456.tmp
+            [error] => 0
+            [size] => 199718
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => rakieta.fla
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php2467.tmp
+            [error] => 0
+            [size] => 43520
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => Untitled Flash Project.flp
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php2468.tmp
+            [error] => 0
+            [size] => 80
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => Rock.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php2469.tmp
+            [error] => 0
+            [size] => 282
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => CreateElements.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php3828.tmp
+            [error] => 0
+            [size] => 414
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => astro.zip
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php3829.tmp
+            [error] => 0
+            [size] => 5182
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => panorama.fla
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php383A.tmp
+            [error] => 0
+            [size] => 256512
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => rakieta.fla
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php384B.tmp
+            [error] => 0
+            [size] => 43520
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => Rock.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php385C.tmp
+            [error] => 0
+            [size] => 282
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => test.fla
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php385D.tmp
+            [error] => 0
+            [size] => 21504
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => panorama.swf
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php385B.tmp
+            [error] => 0
+            [size] => 199718
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => AC_RunActiveContent.js
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php386F.tmp
+            [error] => 0
+            [size] => 8321
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => Untitled Flash Project.flp
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php387F.tmp
+            [error] => 0
+            [size] => 80
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => FileReferenceListExample.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php38CE.tmp
+            [error] => 0
+            [size] => 4885
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => panorama.html
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php38DF.tmp
+            [error] => 0
+            [size] => 2001
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => Rakieta.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php38F0.tmp
+            [error] => 0
+            [size] => 1273
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => FlashDevelop-3.0.0-RC2.exe
+            [type] => 
+            [tmp_name] => 
+            [error] => 1
+            [size] => 0
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => rakieta.swf
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php38F1.tmp
+            [error] => 0
+            [size] => 1004
+        )
+
+)
+Array
+(
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => astro.zip
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php3930.tmp
+            [error] => 0
+            [size] => 5182
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => FileReferenceListExample.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php3931.tmp
+            [error] => 0
+            [size] => 4885
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => panorama.fla
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php3942.tmp
+            [error] => 0
+            [size] => 256512
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => panorama.swf
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php3952.tmp
+            [error] => 0
+            [size] => 199718
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => rakieta.fla
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php3972.tmp
+            [error] => 0
+            [size] => 43520
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => Rock.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php3983.tmp
+            [error] => 0
+            [size] => 282
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => Untitled Flash Project.flp
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php3984.tmp
+            [error] => 0
+            [size] => 80
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => AC_RunActiveContent.js
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php3985.tmp
+            [error] => 0
+            [size] => 8321
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => CreateElements.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php3996.tmp
+            [error] => 0
+            [size] => 414
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => FlashDevelop-3.0.0-RC2.exe
+            [type] => 
+            [tmp_name] => 
+            [error] => 1
+            [size] => 0
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => panorama.html
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php3A14.tmp
+            [error] => 0
+            [size] => 2001
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => Rakieta.as
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php3A25.tmp
+            [error] => 0
+            [size] => 1273
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => rakieta.swf
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php3A26.tmp
+            [error] => 0
+            [size] => 1004
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => test.fla
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php3A37.tmp
+            [error] => 0
+            [size] => 21504
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => index.php
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php8B15.tmp
+            [error] => 0
+            [size] => 404
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => kolor.TXT
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php8B16.tmp
+            [error] => 0
+            [size] => 82
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => linki.TXT
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php8B37.tmp
+            [error] => 0
+            [size] => 142
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => test.odb
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php8B38.tmp
+            [error] => 0
+            [size] => 1363
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => maciekcv.pdf
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php8B49.tmp
+            [error] => 0
+            [size] => 62299
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => install_flash_player.exe
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php8B26.tmp
+            [error] => 0
+            [size] => 1851544
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => ustawieniasieci.TXT
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php8DBB.tmp
+            [error] => 0
+            [size] => 90
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => functions.js
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php8DBC.tmp
+            [error] => 0
+            [size] => 40664
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => maciekcv.odt
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php8DCC.tmp
+            [error] => 0
+            [size] => 20555
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => pocms20071218.o.zip
+            [type] => 
+            [tmp_name] => 
+            [error] => 1
+            [size] => 0
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => tuchow.sql
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php8FF0.tmp
+            [error] => 0
+            [size] => 15199
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => konfiguracjaPC.xls
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php8FF1.tmp
+            [error] => 0
+            [size] => 19968
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => pocms.o.20080424.zip
+            [type] => 
+            [tmp_name] => 
+            [error] => 1
+            [size] => 0
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => kolor.TXT
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php4697.tmp
+            [error] => 0
+            [size] => 82
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => index.php
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php3EDB.tmp
+            [error] => 0
+            [size] => 404
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => install_flash_player.exe
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php3EEC.tmp
+            [error] => 0
+            [size] => 1851544
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => kolor.TXT
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php3F1B.tmp
+            [error] => 0
+            [size] => 82
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => konfiguracjaPC.xls
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php3F2C.tmp
+            [error] => 0
+            [size] => 19968
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => linki.TXT
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php3F3D.tmp
+            [error] => 0
+            [size] => 142
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => maciekcv.odt
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php3F4D.tmp
+            [error] => 0
+            [size] => 20555
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => maciekcv.pdf
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php3F7D.tmp
+            [error] => 0
+            [size] => 62299
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => ext.js
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpEC7F.tmp
+            [error] => 0
+            [size] => 559632
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => ext.js
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php2D95.tmp
+            [error] => 0
+            [size] => 559632
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => functions.js
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php38FB.tmp
+            [error] => 0
+            [size] => 40664
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => index.php
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php390C.tmp
+            [error] => 0
+            [size] => 404
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => install_flash_player.exe
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php391C.tmp
+            [error] => 0
+            [size] => 1851544
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => kolor.TXT
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php395C.tmp
+            [error] => 0
+            [size] => 82
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => konfiguracjaPC.xls
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php397C.tmp
+            [error] => 0
+            [size] => 19968
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => linki.TXT
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php398C.tmp
+            [error] => 0
+            [size] => 142
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => maciekcv.odt
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php399D.tmp
+            [error] => 0
+            [size] => 20555
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => maciekcv.pdf
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php39AE.tmp
+            [error] => 0
+            [size] => 62299
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => pocms.o.20080424.zip
+            [type] => 
+            [tmp_name] => 
+            [error] => 1
+            [size] => 0
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => pocms20071218.o.zip
+            [type] => 
+            [tmp_name] => 
+            [error] => 1
+            [size] => 0
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => test.odb
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php3AC9.tmp
+            [error] => 0
+            [size] => 1363
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => tuchow.sql
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php3AEA.tmp
+            [error] => 0
+            [size] => 15199
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => ustawieniasieci.TXT
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php3AFA.tmp
+            [error] => 0
+            [size] => 90
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => ext.js
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpC752.tmp
+            [error] => 0
+            [size] => 559632
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => ext.js
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php2FA7.tmp
+            [error] => 0
+            [size] => 559632
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => functions.js
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php3794.tmp
+            [error] => 0
+            [size] => 40664
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => index.php
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php37A4.tmp
+            [error] => 0
+            [size] => 404
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => install_flash_player.exe
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php37B5.tmp
+            [error] => 0
+            [size] => 1851544
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => kolor.TXT
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php3804.tmp
+            [error] => 0
+            [size] => 82
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => konfiguracjaPC.xls
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php3814.tmp
+            [error] => 0
+            [size] => 19968
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => linki.TXT
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php3825.tmp
+            [error] => 0
+            [size] => 142
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => maciekcv.odt
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php3836.tmp
+            [error] => 0
+            [size] => 20555
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => maciekcv.pdf
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php3846.tmp
+            [error] => 0
+            [size] => 62299
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => pocms.o.20080424.zip
+            [type] => 
+            [tmp_name] => 
+            [error] => 1
+            [size] => 0
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => pocms20071218.o.zip
+            [type] => 
+            [tmp_name] => 
+            [error] => 1
+            [size] => 0
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => test.odb
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php3972.tmp
+            [error] => 0
+            [size] => 1363
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => tuchow.sql
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php3982.tmp
+            [error] => 0
+            [size] => 15199
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => ustawieniasieci.TXT
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php3993.tmp
+            [error] => 0
+            [size] => 90
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => kolor.TXT
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php2EB.tmp
+            [error] => 0
+            [size] => 82
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => konfiguracjaPC.xls
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php2FB.tmp
+            [error] => 0
+            [size] => 19968
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => linki.TXT
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php30C.tmp
+            [error] => 0
+            [size] => 142
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => maciekcv.odt
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php30D.tmp
+            [error] => 0
+            [size] => 20555
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => maciekcv.pdf
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php31D.tmp
+            [error] => 0
+            [size] => 62299
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => pocms.o.20080424.zip
+            [type] => 
+            [tmp_name] => 
+            [error] => 1
+            [size] => 0
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => pocms20071218.o.zip
+            [type] => 
+            [tmp_name] => 
+            [error] => 1
+            [size] => 0
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => test.odb
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php40A.tmp
+            [error] => 0
+            [size] => 1363
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => tuchow.sql
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php41B.tmp
+            [error] => 0
+            [size] => 15199
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => functions.js
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpA125.tmp
+            [error] => 0
+            [size] => 40664
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => index.php
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpA136.tmp
+            [error] => 0
+            [size] => 404
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => install_flash_player.exe
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpA147.tmp
+            [error] => 0
+            [size] => 1851544
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => kolor.TXT
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpA1A5.tmp
+            [error] => 0
+            [size] => 82
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => konfiguracjaPC.xls
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpA1B6.tmp
+            [error] => 0
+            [size] => 19968
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => linki.TXT
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpA1C6.tmp
+            [error] => 0
+            [size] => 142
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => maciekcv.odt
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpA1D7.tmp
+            [error] => 0
+            [size] => 20555
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => maciekcv.pdf
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpA1E8.tmp
+            [error] => 0
+            [size] => 62299
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => pocms.o.20080424.zip
+            [type] => 
+            [tmp_name] => 
+            [error] => 1
+            [size] => 0
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => pocms20071218.o.zip
+            [type] => 
+            [tmp_name] => 
+            [error] => 1
+            [size] => 0
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => test.odb
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpA303.tmp
+            [error] => 0
+            [size] => 1363
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => tuchow.sql
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpA314.tmp
+            [error] => 0
+            [size] => 15199
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => ustawieniasieci.TXT
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpA325.tmp
+            [error] => 0
+            [size] => 90
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => functions.js
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpBD98.tmp
+            [error] => 0
+            [size] => 40664
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => index.php
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpBDA9.tmp
+            [error] => 0
+            [size] => 404
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => install_flash_player.exe
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpBDB9.tmp
+            [error] => 0
+            [size] => 1851544
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => kolor.TXT
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpBDF9.tmp
+            [error] => 0
+            [size] => 82
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => konfiguracjaPC.xls
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpBE09.tmp
+            [error] => 0
+            [size] => 19968
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => linki.TXT
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpBE0A.tmp
+            [error] => 0
+            [size] => 142
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => maciekcv.odt
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpBE2A.tmp
+            [error] => 0
+            [size] => 20555
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => maciekcv.pdf
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpBE3B.tmp
+            [error] => 0
+            [size] => 62299
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => pocms.o.20080424.zip
+            [type] => 
+            [tmp_name] => 
+            [error] => 1
+            [size] => 0
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => pocms20071218.o.zip
+            [type] => 
+            [tmp_name] => 
+            [error] => 1
+            [size] => 0
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => test.odb
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpBF57.tmp
+            [error] => 0
+            [size] => 1363
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => tuchow.sql
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpBF77.tmp
+            [error] => 0
+            [size] => 15199
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => ustawieniasieci.TXT
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpBF88.tmp
+            [error] => 0
+            [size] => 90
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => functions.js
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpF854.tmp
+            [error] => 0
+            [size] => 40664
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => index.php
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpF865.tmp
+            [error] => 0
+            [size] => 404
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => install_flash_player.exe
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpF866.tmp
+            [error] => 0
+            [size] => 1851544
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => kolor.TXT
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpF8D4.tmp
+            [error] => 0
+            [size] => 82
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => konfiguracjaPC.xls
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpF8E4.tmp
+            [error] => 0
+            [size] => 19968
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => linki.TXT
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpF8F5.tmp
+            [error] => 0
+            [size] => 142
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => maciekcv.odt
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpF906.tmp
+            [error] => 0
+            [size] => 20555
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => maciekcv.pdf
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\phpF916.tmp
+            [error] => 0
+            [size] => 62299
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => pocms.o.20080424.zip
+            [type] => 
+            [tmp_name] => 
+            [error] => 1
+            [size] => 0
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => pocms20071218.o.zip
+            [type] => 
+            [tmp_name] => 
+            [error] => 3
+            [size] => 0
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => test.odb
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php3944.tmp
+            [error] => 0
+            [size] => 1363
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => tuchow.sql
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php3964.tmp
+            [error] => 0
+            [size] => 15199
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => ustawieniasieci.TXT
+            [type] => application/octet-stream
+            [tmp_name] => F:/instalki/wamp/tmp\php3975.tmp
+            [error] => 0
+            [size] => 90
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => pocms20071218.o.zip
+            [type] => 
+            [tmp_name] => 
+            [error] => 1
+            [size] => 0
+        )
+
+)
+Array
+(
+    [Filedata] => Array
+        (
+            [name] => pocms.o.20080424.zip
+            [type] => 
+            [tmp_name] => 
+            [error] => 1
+            [size] => 0
+        )
+
+)

@@ -1,0 +1,79 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2" />
+<title>upload</title>
+<style type="text/css">
+#lista div{border:1px solid #0F0}
+</style>
+<script type="text/javascript">
+var MultiUpload = {
+	    swfisready : false,
+		getSWF:function (movieName) 
+		{ 	
+			if (navigator.appName.indexOf("Microsoft") != -1) 
+			{ 
+				return window[movieName]; 
+			} 
+			else 
+			{ 
+				return document[movieName]; 
+			} 
+		} ,
+		getStatusJS:function (){
+			MultiUpload.getSWF("upload").getStatus();
+		},
+		setSWFIsReady:function (){
+			MultiUpload.swfisready = true;
+		},
+		isReady:function (){
+			alert("isRedi");
+			return true;
+		},
+		fileName:function (name,kb){
+			document.getElementById("lista").innerHTML +='<div onclick="MultiUpload.removeFile(\''+name+'\',this)">' + name+" "+kb+"[kb]</div>";
+		},
+		Uploudingfile:function (name,kb){
+			document.getElementById("uploading").innerHTML +=  name+" "+kb+"<br>";
+		},
+		sendFormJS:function (){
+			
+			MultiUpload.getSWF("upload").sendForm();
+		},
+		removeFile:function (f,o){
+			document.getElementById("lista").removeChild(o);
+			MultiUpload.getSWF("upload").removeFromList(f);
+		}
+};
+
+	</script>
+<div id="lista" style="border:1px solid #F00"></div>
+</head>
+<body bgcolor="#ffffff">
+<!--url's used in the movie-->
+<!--text used in the movie-->
+<!--
+Test
+-->
+<!-- saved from url=(0013)about:internet -->
+	
+
+	<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" 
+codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,0,0" 
+width="550" height="400" id="upload" align="middle" id="upload">
+	<param name="allowScriptAccess" value="sameDomain" />
+	<param name="allowFullScreen" value="false" />
+	<param name="movie" value="upload.swf" />
+	<param name="quality" value="high" />
+	<param name="bgcolor" value="#ffffff" />
+	<param name="flashvars" value="http://ez.o/upload/u.php" />
+	<embed src="upload.swf" quality="high" bgcolor="#ffffff" width="550" height="400" name="upload" 
+align="middle" allowScriptAccess="sameDomain" allowFullScreen="false" type="application/x-shockwave-flash" 
+flashvars="downloadURL=http://ez.o/upload/u.php" pluginspage="http://www.macromedia.com/go/getflashplayer" />
+	</object>
+
+	
+	<button onclick="MultiUpload.getStatusJS()">Status</button>
+	<button onclick="MultiUpload.sendFormJS()">SendForm</button>
+	<div id="uploading"></div>
+</body>
+</html>

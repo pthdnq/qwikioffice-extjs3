@@ -1,0 +1,109 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2" />
+<title>upload</title>
+<style type="text/css">
+#lista div{border:1px solid #0F0}
+</style>
+<script type="text/javascript">
+function ClassMultiUpload(obj){
+	    this.swfisready = false;
+	    this.obj = obj;
+	    this.elements={};
+	    this.ec=0;
+	    if(typeof ClassMultiUpload._initialized=="undefined"){
+			this.getSWF=function (movieName) 
+			{ 	
+				if (navigator.appName.indexOf("Microsoft") != -1){ 
+					return window[movieName]; 
+				}else{ 
+					return document[movieName]; 
+				} 
+			}
+			this.getStatusJS=function (){
+				this.getSWF(this.obj).getStatus();
+			}
+			this.setSWFIsReady=function (){
+				this.swfisready = true;
+			}
+			this.isReady=function (){
+				return true;
+			}
+			this.fileName=function (name,kb){
+				this.ec++;
+				this.elements[name]=this.ec;
+				document.getElementById("lista").innerHTML +='<div id="uploadFilesList'+this.ec+'" onclick="MultiUpload.removeFile(\''+name+'\',this)">' + name+" "+kb+"[kb]</div>";
+			}
+			this.UploudingFile=function (name,kb){
+				document.getElementById("uploading").innerHTML +=  name+" "+kb+"<br>";
+			}
+			this.sendFormJS=function (){
+				try{
+					MultiUpload.getSWF(this.obj).sendForm("e");
+				}catch(e){alert(e)}
+			}
+			this.removeFile=function (f,o){
+				document.getElementById("lista").removeChild(o);
+				this.getSWF(this.obj).removeFromList(f);
+			}
+			this.noFilesSelected=function(){
+				alert("brak plikow");
+			}
+			this.progressInfo = function(name,bytes,total){
+				//document.getElementById("progressInfo").innerHTML = name+",b:"+bytes+","+total;
+				//alert(this.elements[name]);
+				document.getElementById("uploadFilesList"+this.elements[name]).innerHTML = name+" , "+bytes+" , "+total;
+			}
+			this.clearFilesList = function(){
+				document.getElementById("lista").innerHTML='';
+			}
+			this.UploadFileFinished = function(name){
+				document.getElementById("finishedField").innerHTML += name+'<br>'; 
+			}
+			this.cancelUpload = function(){
+				alert("przerwane sciaganie");
+			}
+			ClassMultiUpload._initialized=true;
+	    }
+};
+var MultiUpload = new ClassMultiUpload("upload");
+function testJs(p){
+	
+}
+
+	</script>
+
+</head>
+<body bgcolor="#ffffff">
+<!--url's used in the movie-->
+<!--text used in the movie-->
+<!--
+Test
+-->
+<!-- saved from url=(0013)about:internet -->
+<table><tr><td valign="top">
+	<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" 
+codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,0,0" 
+width="550" height="400" id="upload" align="middle" id="upload">
+	<param name="allowScriptAccess" value="sameDomain" />
+	<param name="allowFullScreen" value="false" />
+	<param name="movie" value="upload.swf" />
+	<param name="quality" value="high" />
+	<param name="bgcolor" value="#ffffff" />
+	<param name="flashvars" value="http://ez.o/upload/u.php" />
+	<embed src="upload.swf" quality="high" bgcolor="#ffffff" width="550" height="400" name="upload" 
+align="middle" allowScriptAccess="sameDomain" allowFullScreen="false" type="application/x-shockwave-flash" 
+flashvars="downloadURL=http://ez.o/upload/u.php" pluginspage="http://www.macromedia.com/go/getflashplayer" />
+	</object>
+	</td><td valign="top">
+	<button onclick="MultiUpload.getStatusJS()">Status</button>
+	<button onclick="MultiUpload.sendFormJS()">SendForm</button>
+	Lista plików do uploadu:
+	<div id="lista" style="border:1px solid #F00"></div>
+	Postęp w uploadzie plików(aktualnie uploadowany):
+	<div id="progressInfo"></div>
+	<br>Sonczony upload plików:
+	<div id="finishedField"></div>
+	</td></tr></table>
+</body>
+</html>
