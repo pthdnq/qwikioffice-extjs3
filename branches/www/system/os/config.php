@@ -51,7 +51,7 @@ class config {
 		$ext[]='<link rel="stylesheet" type="text/css" href="http://extjs.o/ext3/resources/css/ext-all.css" />';
 		$ext[]='<script src="http://extjs.o/ext3/adapter/ext/ext-base-debug.js"></script>';
 		$ext[]='<script src="http://extjs.o/ext3/ext-all-debug.js"></script>';
-		$ext[]='<script src="http://extjs.o/ext3/ext-fix.js"></script>';
+		$ext[]='<script src="ext3/ext-fix.js"></script>';
 		return join("\n",$ext);
 	}
 }
