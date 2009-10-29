@@ -28,7 +28,8 @@ class config {
 	public $WALLPAPERS_DIR = 'resources/wallpapers/';
 	
 	// login url
-	public $LOGIN_URL = 'login.html';
+	public $LOGIN_URL = 'login.php';
+	
 	
 	// local database
 	public $DB_HOST = 'localhost';
@@ -52,4 +53,12 @@ class config {
 		$ext[]='<script src="/ext3/ext-fix.js"></script>';
 		return join("\n",$ext);
 	}
+	
+	public function getInstance(){
+			static $instance; 
+			if(!isset($instance)) { 
+			   $instance = new config();
+			}
+			return $instance;
+   }
 }
