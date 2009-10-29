@@ -18,8 +18,6 @@
 // If you want all Error Reporting off, use this:
 error_reporting(255);
 
-include_once('D:/serwisy/pocms5.o/libs/Pocms/Tools.php');
-
 class config {
 	// document root
 	public $DOCUMENT_ROOT = '';
