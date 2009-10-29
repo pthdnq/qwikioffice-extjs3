@@ -1,23 +1,23 @@
 <?php
 require_once("system/os/os.php");
 if(!class_exists('os')){
-	header("Location: login.html");
+	header("Location: ".config::getInstance()->LOGIN_URL);
 }else{
 	$os = new os();
 	if(!$os->session->exists()){
-		header("Location: login.html");
+		header("Location: ".config::getInstance()->LOGIN_URL);
 	}else{
 		$os->init();
 ?>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <html lang="en">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <meta http-equiv="PRAGMA" content="NO-CACHE">
 <meta http-equiv="CACHE-CONTROL" content="NO-CACHE">
 <meta http-equiv="EXPIRES" content="-1">
 
-<title>Desktop</title>
+<title>Desktop Demo</title>
 
 <!-- EXT JS LIBRARY -->
 <?php

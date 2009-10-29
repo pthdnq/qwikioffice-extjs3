@@ -11,14 +11,10 @@ class session {
 	
 	private $os;
 	
-	
-	
 	public function __construct($os){
 		$this->os = $os;
 	}
-	
-	
-	
+
 	/** get_id() Returns the id of the current session.
 	  *
 	  * @access private
@@ -30,8 +26,6 @@ class session {
 		    return null;
 		}
 	} // end get_id()
-	
-	
 	
 	/** get_member_id() Returns the id of member from the current session.
 	  *
@@ -296,4 +290,3 @@ class session {
 		}
 	} // end logout()
 }
-?>
