@@ -15,7 +15,7 @@ QoDesk.QoAdmin.GroupsAdd = function(config){
       , border: false
       , buttons: [
          {
-            handler: this.onAdd
+            handler: this.onRecordAdd
             , scope: this
             , text: 'Add'
             , type: 'submit'
@@ -94,7 +94,7 @@ Ext.extend(QoDesk.QoAdmin.GroupsAdd, Ext.Window, {
       this.form.reset();
    }
 
-   , onAdd : function(){
+   , onRecordAdd : function(){
       this.form.submit({
          failure: function(response,options){
             Ext.MessageBox.alert('Error','Unable to save record!');
