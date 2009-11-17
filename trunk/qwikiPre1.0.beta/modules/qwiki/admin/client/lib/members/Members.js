@@ -63,7 +63,7 @@ QoDesk.QoAdmin.Members = function(ownerModule){
             
          },'-',{
             disabled: this.ownerModule.app.isAllowedTo('addMember', this.ownerModule.id) ? false : true
-            , handler: this.onAdd
+            , handler: this.onRecordAdd
             //, iconCls: 'qo-admin-add'
             , scope: this
             , text: 'Add'
@@ -107,7 +107,7 @@ Ext.extend(QoDesk.QoAdmin.Members, Ext.Panel, {
       this.fireEvent('memberedited', record);
    }
    
-   , onAdd : function(){
+   , onRecordAdd : function(){
       var g = this.grid;
       var s = g.getStore();
       var sm = g.getSelectionModel();
