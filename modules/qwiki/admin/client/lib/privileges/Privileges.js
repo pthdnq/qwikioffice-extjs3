@@ -67,7 +67,7 @@ QoDesk.QoAdmin.Privileges = function(ownerModule){
          , '-'
          , {
             disabled: this.ownerModule.app.isAllowedTo('addPrivilege', this.ownerModule.id) ? false : true
-            , handler: this.onAdd
+            , handler: this.onRecordAdd
             //, iconCls: 'qo-admin-add'
             , scope: this
             , text: 'Add'
@@ -114,7 +114,7 @@ Ext.extend(QoDesk.QoAdmin.Privileges, Ext.Panel, {
       this.fireEvent('privilegeedited', record);
    }
 
-   , onAdd : function(){
+   , onRecordAdd : function(){
       var g = this.grid;
       var s = g.getStore();
       var sm = g.getSelectionModel();
