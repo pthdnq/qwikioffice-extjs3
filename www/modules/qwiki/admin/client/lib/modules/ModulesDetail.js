@@ -46,11 +46,12 @@ Ext.extend(QoDesk.QoAdmin.ModulesDetail, Ext.Panel, {
    		console.info(data);
       var tpl = new Ext.XTemplate(
          '<table id="qo-module-detail-table">'
-         , '<tr><th>Author:</th><td>{author}</td></tr>'
          , '<tr><th>Name:</th><td>{name}</td></tr>'
+         , '<tr><th>Author:</th><td>{author}</td></tr>'
          , '<tr><th>Description:</th><td>{description}</td></tr>'
          , '<tr><th>Active:</th><td>{active}</td></tr>'
-         , '<tr><th>Version:</th><td>{version}</td></tr>'
+         , '<tr><th>WWW:</th><td>{url}</td></tr>'
+         ,'<tr><th>Version:</th><td>{version}</td></tr>'
          //, '<td class="qo-admin-edit-btn"><p><button id="qo-admin-edit">Edit</button></p></td>'
          , '</table>'
       );

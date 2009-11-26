@@ -14,7 +14,7 @@ QoDesk.QoAdmin.Modules = function(ownerModule){
    this.ownerModule = ownerModule;
 
    this.detail = new QoDesk.QoAdmin.ModulesDetail({
-      height: 150
+      height: 120
       , ownerModule: this.ownerModule
       , ownerPanel: this
       , region: 'center'
@@ -32,9 +32,20 @@ QoDesk.QoAdmin.Modules = function(ownerModule){
       , ownerPanel: this
       , region: 'west'
       , width: 280
+      ,split:true
    });
    
-
+	this.tabPanel = new Ext.TabPanel({
+								    activeTab: 0,
+								    items: [{
+								        title: 'Methods',
+								        html: 'A simple tab'
+								    },{
+								        title: 'Files',
+								        html: 'Another one'
+								    }]
+								});
+   
 //	this.grid = null;
 //
 //   this.grid.on('activetoggled', this.onActiveToggled, this);
@@ -45,19 +56,17 @@ QoDesk.QoAdmin.Modules = function(ownerModule){
       , closable:true
       , iconCls: 'qo-admin-privilege'
       , id: 'qo-admin-modules'
+      , layout: 'border'
       , items: [
          this.grid
          , {
             border: false
-            , items: [
-               this.detail
-               , {title:"test"}/*this.tree*/
-              ]
-            
             , region: 'center'
+            , items: [
+               this.detail , this.tabPanel
+              ]
            }
         ]
-      , layout: 'border'
       , tbar: [
          {
             disabled: this.ownerModule.app.isAllowedTo('viewAllModules', this.ownerModule.id) ? false : true
@@ -253,7 +262,7 @@ Ext.extend(QoDesk.QoAdmin.Modules, Ext.Panel, {
     }
 
    , viewDetail : function(sm, index, record){
-   	console.info(sm, index, record);
+   	
       if(record && record.data){
          var data = record.data;
          var moduleId = data.id;
@@ -263,7 +272,6 @@ Ext.extend(QoDesk.QoAdmin.Modules, Ext.Panel, {
 
             // update the detail
             this.detail.setModuleId(moduleId);
-            
             
             Ext.Ajax.request({
                   waitMsg: 'Geting data ...'
@@ -291,4 +299,5 @@ Ext.extend(QoDesk.QoAdmin.Modules, Ext.Panel, {
          }
       }
     }
+   
 });

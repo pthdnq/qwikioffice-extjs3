@@ -7,6 +7,14 @@
  * http://www.qwikioffice.com/license
  */
 
+if( (  function_exists("get_magic_quotes_gpc") && get_magic_quotes_gpc()  )
+     || (  ini_get('magic_quotes_sybase') && ( strtolower(ini_get('magic_quotes_sybase')) != "off" )  )
+   ){
+    foreach($_GET as $k => $v) $_GET[$k] = stripslashes($v);
+    foreach($_POST as $k => $v) $_POST[$k] = stripslashes($v);
+    foreach($_COOKIE as $k => $v) $_COOKIE[$k] = stripslashes($v);
+}
+
 $service = isset($_POST['service']) ? $_POST['service'] : '';
 
 if(isset($service) && $service != ''){
