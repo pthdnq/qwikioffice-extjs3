@@ -35,12 +35,16 @@ QoDesk.QoAdmin.Modules = function(ownerModule){
       ,split:true
    });
    
+  this.methodsGrid = new QoDesk.QoAdmin.ModulesMethodsGrid({
+  		title:"Methods",
+      ownerModule: this.ownerModule
+      , ownerPanel: this
+      , width: 380
+   }); 
+   
 	this.tabPanel = new Ext.TabPanel({
 								    activeTab: 0,
-								    items: [{
-								        title: 'Methods',
-								        html: 'A simple tab'
-								    },{
+								    items: [this.methodsGrid,{
 								        title: 'Files',
 								        html: 'Another one'
 								    }]
@@ -296,6 +300,8 @@ Ext.extend(QoDesk.QoAdmin.Modules, Ext.Panel, {
             // load the groups
             //this.tree.setPrivilegeId(privilegeId);
             //this.tree.reloadPrivileges();
+            this.methodsGrid.setModuleId(moduleId);
+            this.methodsGrid.reload(record);
          }
       }
     }

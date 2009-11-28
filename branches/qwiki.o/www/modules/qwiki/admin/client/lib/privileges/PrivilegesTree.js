@@ -9,7 +9,7 @@
 QoDesk.QoAdmin.PrivilegesTree = function(config){
 	this.ownerModule = config.ownerModule;
 
-	/* this.groupComboStore = new Ext.data.Store({
+	 this.groupComboStore = new Ext.data.Store({
 		baseParams: {
 			method: 'loadModulesCombo',
 			moduleId: this.ownerModule.id,
@@ -45,7 +45,7 @@ QoDesk.QoAdmin.PrivilegesTree = function(config){
 		triggerAction: 'all',
 		valueField: 'id'
 		//, width: 270
-	}); */
+	}); 
 
 	QoDesk.QoAdmin.PrivilegesTree.superclass.constructor.call(this, Ext.apply({
 		autoScroll: true,
@@ -80,22 +80,22 @@ QoDesk.QoAdmin.PrivilegesTree = function(config){
 		root: new Ext.tree.AsyncTreeNode({
 			text: 'Privilege'
 		}),
-		//tbar: [
-			// {
-			//	handler: this.refresh,
-			//	iconCls: 'qo-admin-refresh',
-			//	scope: this,
-			//	text: 'Refresh'
-			//},
-			//'-'
-			//this.groupCombo,
-			//{
-			//	disabled: this.ownerModule.app.isAllowedTo('deletePrivilegeFromGroup', this.ownerModule.id) ? false : true,
-			//	handler: this.remove,
-			//	scope: this,
-			//	text: 'Remove'
-			//}
-		//]
+		tbar: [
+			 {
+				handler: this.refresh,
+				iconCls: 'qo-admin-refresh',
+				scope: this,
+				text: 'Refresh'
+			},
+			'-',
+			this.groupCombo,
+			{
+				disabled: this.ownerModule.app.isAllowedTo('deletePrivilegeFromGroup', this.ownerModule.id) ? false : true,
+				handler: this.remove,
+				scope: this,
+				text: 'Remove'
+			}
+		]
 	}, config));
 
 	this.loader.on('load', onLoad, this, {single:false});
@@ -209,7 +209,7 @@ Ext.extend(QoDesk.QoAdmin.PrivilegesTree, Ext.tree.TreePanel, {
 
 	reloadPrivileges : function(){
 		this.getLoader().baseParams.privilegeId = this.privilegeId;
-		//this.groupComboStore.baseParams.privilegeId = this.privilegeId;
+		this.groupComboStore.baseParams.privilegeId = this.privilegeId;
 		this.refresh();
 	},
 
