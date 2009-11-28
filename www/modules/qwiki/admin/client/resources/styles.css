@@ -16,6 +16,9 @@
 .qo-admin-signups-icon { background-image:url(images/signups48x48.png); background-repeat:none; border:0 none; height:48px; width:48px;
    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='modules/qwiki/admin/client/resources/images/signups48x48.png', sizingMethod='scale');
 }
+.qo-admin-modules-icon { background-image:url(images/modules48x48.png); background-repeat:none; border:0 none; height:48px; width:48px;
+   filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='modules/qwiki/admin/client/resources/images/modules48x48.png', sizingMethod='scale');
+}
 .qo-admin-inactive { color:#ff0000 !important; }
 #qo-admin-status { background-color:#f1f1f1; }
 .qo-admin-group { background-image:url(images/group16x16.gif) !important; }
@@ -23,6 +26,7 @@
 .qo-admin-member { background-image:url(images/member16x16.gif) !important; }
 .qo-admin-method { background-image:url(images/action16x16.gif) !important; }
 .qo-admin-privilege { background-image:url(images/key16x16.gif) !important; }
+.qo-admin-modules{{ background-image:url(images/modules16x16.png) !important; }}
 #qo-admin-nav-list li { float:left; text-align:center; width:75px; }
 #qo-admin-nav-list a { color:#0000ff; text-decoration:none; }
 

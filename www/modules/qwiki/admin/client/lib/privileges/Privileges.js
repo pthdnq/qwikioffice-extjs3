@@ -45,12 +45,13 @@ QoDesk.QoAdmin.Privileges = function(ownerModule){
          this.grid
          , {
             border: false
+            , layout: 'border'
+            , region: 'center'
             , items: [
                this.detail
                , this.tree
               ]
-            , layout: 'border'
-            , region: 'center'
+            
            }
         ]
       , layout: 'border'

@@ -7,7 +7,6 @@
  */
 
 QoDesk.QoAdmin.ModulesMethodsGrid = Ext.extend(Ext.grid.GridPanel, {
-	data:null,
 	constructor : function(config){
 		config = config || {};
 		this.moduleId = null;
@@ -29,22 +28,19 @@ QoDesk.QoAdmin.ModulesMethodsGrid = Ext.extend(Ext.grid.GridPanel, {
 					},
 					scope: sm,
 					single: true
+				},
+				'loadexception':function(){
+					this.removeAll();
 				}
 			},
 			proxy: new Ext.data.HttpProxy ({
 				scope: this,
 				url: this.ownerModule.app.connection
 			}),
-			baseParams: {
-				method: 'viewModuleMethods',
-				moduleId: this.ownerModule.id,
-				modulesId: this.moduleId
-			},
 			reader: new Ext.data.JsonReader ({
-				root: 'qo_modules',
-				id: 'id',
+				root: 'methods',
+				id: 'name',
 				fields: [
-					{name: 'id'},
 					{name: 'name'},
 					{name: 'description'}
 				]
@@ -58,12 +54,6 @@ QoDesk.QoAdmin.ModulesMethodsGrid = Ext.extend(Ext.grid.GridPanel, {
 		var cm = new Ext.grid.ColumnModel([
 			//activeColumn,
 			{
-				id:'id',
-				header: 'Id',
-				dataIndex: 'id',
-				menuDisabled: true,
-				width: 90
-			},{
 				id: 'name', // +X+ ADDED for autoExpandColumn (below)
 				header: 'Name',
 				dataIndex: 'name',
@@ -73,78 +63,38 @@ QoDesk.QoAdmin.ModulesMethodsGrid = Ext.extend(Ext.grid.GridPanel, {
 				id: 'description', 
 				header: 'Description',
 				dataIndex: 'description',
-				menuDisabled: true
+				menuDisabled: true,
+				width:300
 			}
 		]);
 		
 		cm.defaultSortable = true;
 		
 		Ext.applyIf(config, {
-			autoExpandColumn: 'name', // +X+ CHANGED (see https://www.yui-ext.com/forum/showthread.php?t=44668 for reason)
 			border: false,
-			cls: 'qo-admin-grid-list',
 			cm: cm,
-			//plugins: activeColumn,
-			region: 'west',
 			selModel: sm,
-			split: true,
 			store: store,
 			viewConfig: {
-				emptyText: 'No methods to display...',
-				ignoreAdd: true,
-				// forceFit: true,
-				getRowClass : function(r){
-					var d = r.data;
-					if(!d.active){
-							return 'qo-admin-inactive';
-						}
-						return '';
-					}
+				emptyText: 'No methods to display...'
 			}
 		});
 		
 		QoDesk.QoAdmin.ModulesMethodsGrid.superclass.constructor.apply(this, [config]);
 		
-		store.load();
+		//store.load();
 	},
 	setModuleId:function(id){
 		this.moduleId = id;
 	},
 	// added methods
 	reload:function(record){
-		console.info(record,'#');
+		//console.info(Ext.getCmp('testese'));
 		this.store.load({params: {
-				method: 'viewModuleMethods',
+				method: 'viewMethods',
 				moduleId: this.ownerModule.id,
-				modulesId: record.id
+				id: record.id
 			}});
-	},
-	handleUpdate : function(record){
-//		Ext.Ajax.request({
-//			url: this.ownerModule.app.connection,
-//			params: {
-//				method: 'changeModuleStatus',
-//				field: 'active',
-//				id: record.data.id,
-//				moduleId: this.ownerModule.id,
-//				value: record.data.active
-//			},
-//			success: function(o){
-//				var d = Ext.decode(o.responseText);
-//				
-//				if(d.success){
-//					
-//					this.fireEvent("activetoggled", record);
-//				}else{
-//					Ext.MessageBox.alert('Error', d.msg || 'Errors encountered on the server.');
-//					// rollback
-//					record.set('active',!record.data.active);
-//				}
-//			},
-//			failure: function(){
-//				Ext.MessageBox.alert('Error', 'Lost connection to server.');	
-//			},
-//			scope: this
-//		});
+			this.doLayout();
 	}
 });
