@@ -31,7 +31,7 @@ QoDesk.QoAdmin.Nav = function(ownerModule){
                'Signups</a>' +
             '</li>' +
              '<li>' +
-               '<a id="viewModules" href="#"><img src="'+Ext.BLANK_IMAGE_URL+'" class="qo-admin-signups-icon"/><br />' +
+               '<a id="viewModules" href="#"><img src="'+Ext.BLANK_IMAGE_URL+'" class="qo-admin-modules-icon"/><br />' +
                'Modules</a>' +
             '</li>' +
          '</ul>'

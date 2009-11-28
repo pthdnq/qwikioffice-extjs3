@@ -997,6 +997,20 @@ class QoAdmin {
       print json_encode($nodes);
    } // end viewModuleMethods()
 
+   public function viewMethods(){
+   	$response = '{success:false}';
+   	
+   	if(!empty($_POST['id'])){
+   	// get all the module data
+      $this->os->load('module');
+      $module = $this->os->module->get_by_id($_POST['id']);
+      if(!empty($module->server)){
+      	print '{succes:true,methods:'.json_encode($module->server->methods).'}';
+      	return true;
+      }
+   	}
+   	print $response;
+   }
    /**
     * Change status of module 
     * acitve = 1|0

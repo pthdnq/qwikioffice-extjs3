@@ -17,7 +17,7 @@ QoDesk.QoAdmin.Modules = function(ownerModule){
       height: 120
       , ownerModule: this.ownerModule
       , ownerPanel: this
-      , region: 'center'
+      , region: 'north'
       , split: true
    });
 /*
@@ -36,15 +36,18 @@ QoDesk.QoAdmin.Modules = function(ownerModule){
    });
    
   this.methodsGrid = new QoDesk.QoAdmin.ModulesMethodsGrid({
-  		title:"Methods",
+  		title:"Server methods",
       ownerModule: this.ownerModule
       , ownerPanel: this
-      , width: 380
+      , autoScroll:true
    }); 
    
 	this.tabPanel = new Ext.TabPanel({
 								    activeTab: 0,
-								    items: [this.methodsGrid,{
+								    split:true,
+								    region: 'center',
+								    items: [
+								    	this.methodsGrid,{
 								        title: 'Files',
 								        html: 'Another one'
 								    }]
@@ -65,9 +68,11 @@ QoDesk.QoAdmin.Modules = function(ownerModule){
          this.grid
          , {
             border: false
+            , layout: 'border'
             , region: 'center'
             , items: [
-               this.detail , this.tabPanel
+               this.detail, 
+               this.tabPanel
               ]
            }
         ]
