@@ -43,7 +43,6 @@ Ext.extend(QoDesk.QoAdmin.ModulesDetail, Ext.Panel, {
 
    , updateDetail : function(data,row){
    		data.about.active = row.active ? Ext.MessageBox.buttonText.yes :Ext.MessageBox.buttonText.no;
-   		console.info(data);
       var tpl = new Ext.XTemplate(
          '<table id="qo-module-detail-table">'
          , '<tr><th>Name:</th><td>{name}</td></tr>'

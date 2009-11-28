@@ -6,14 +6,15 @@
  * http://www.qwikioffice.com/license
  */
 
-QoDesk.QoAdmin.ModulesGrid = Ext.extend(Ext.grid.GridPanel, {
+QoDesk.QoAdmin.ModulesMethodsGrid = Ext.extend(Ext.grid.GridPanel, {
+	data:null,
 	constructor : function(config){
 		config = config || {};
-		
+		this.moduleId = null;
 		this.addEvents({
 			'activetoggled' : true
 		});
-
+		
 		this.ownerModule = config.ownerModule;
 		
 		var sm = new Ext.grid.RowSelectionModel({
@@ -35,8 +36,9 @@ QoDesk.QoAdmin.ModulesGrid = Ext.extend(Ext.grid.GridPanel, {
 				url: this.ownerModule.app.connection
 			}),
 			baseParams: {
-				method: 'viewAllModules',
-				moduleId: this.ownerModule.id
+				method: 'viewModuleMethods',
+				moduleId: this.ownerModule.id,
+				modulesId: this.moduleId
 			},
 			reader: new Ext.data.JsonReader ({
 				root: 'qo_modules',
@@ -44,8 +46,7 @@ QoDesk.QoAdmin.ModulesGrid = Ext.extend(Ext.grid.GridPanel, {
 				fields: [
 					{name: 'id'},
 					{name: 'name'},
-					{name: 'description'},
-					{name: 'active'}
+					{name: 'description'}
 				]
 			})
 		});
@@ -55,7 +56,7 @@ QoDesk.QoAdmin.ModulesGrid = Ext.extend(Ext.grid.GridPanel, {
 		});
 		
 		var cm = new Ext.grid.ColumnModel([
-			activeColumn,
+			//activeColumn,
 			{
 				id:'id',
 				header: 'Id',
@@ -68,20 +69,11 @@ QoDesk.QoAdmin.ModulesGrid = Ext.extend(Ext.grid.GridPanel, {
 				dataIndex: 'name',
 				menuDisabled: true,
 				width:160
-			},/*{
+			},{
 				id: 'description', 
 				header: 'Description',
 				dataIndex: 'description',
 				menuDisabled: true
-			},*/{
-				id: 'active',
-				header: 'Active',
-				dataIndex: 'active',
-				menuDisabled: true,
-				renderer: function(value, p, record){
-					return value ? 'Yes' : 'No';
-				},
-				width: 40
 			}
 		]);
 		
@@ -92,13 +84,13 @@ QoDesk.QoAdmin.ModulesGrid = Ext.extend(Ext.grid.GridPanel, {
 			border: false,
 			cls: 'qo-admin-grid-list',
 			cm: cm,
-			plugins: activeColumn,
+			//plugins: activeColumn,
 			region: 'west',
 			selModel: sm,
 			split: true,
 			store: store,
 			viewConfig: {
-				emptyText: 'No groups to display...',
+				emptyText: 'No methods to display...',
 				ignoreAdd: true,
 				// forceFit: true,
 				getRowClass : function(r){
@@ -111,39 +103,48 @@ QoDesk.QoAdmin.ModulesGrid = Ext.extend(Ext.grid.GridPanel, {
 			}
 		});
 		
-		QoDesk.QoAdmin.ModulesGrid.superclass.constructor.apply(this, [config]);
+		QoDesk.QoAdmin.ModulesMethodsGrid.superclass.constructor.apply(this, [config]);
 		
 		store.load();
 	},
-	
+	setModuleId:function(id){
+		this.moduleId = id;
+	},
 	// added methods
-
-	handleUpdate : function(record){
-		Ext.Ajax.request({
-			url: this.ownerModule.app.connection,
-			params: {
-				method: 'changeModuleStatus',
-				field: 'active',
-				id: record.data.id,
+	reload:function(record){
+		console.info(record,'#');
+		this.store.load({params: {
+				method: 'viewModuleMethods',
 				moduleId: this.ownerModule.id,
-				value: record.data.active
-			},
-			success: function(o){
-				var d = Ext.decode(o.responseText);
-				
-				if(d.success){
-					
-					this.fireEvent("activetoggled", record);
-				}else{
-					Ext.MessageBox.alert('Error', d.msg || 'Errors encountered on the server.');
-					// rollback
-					record.set('active',!record.data.active);
-				}
-			},
-			failure: function(){
-				Ext.MessageBox.alert('Error', 'Lost connection to server.');	
-			},
-			scope: this
-		});
+				modulesId: record.id
+			}});
+	},
+	handleUpdate : function(record){
+//		Ext.Ajax.request({
+//			url: this.ownerModule.app.connection,
+//			params: {
+//				method: 'changeModuleStatus',
+//				field: 'active',
+//				id: record.data.id,
+//				moduleId: this.ownerModule.id,
+//				value: record.data.active
+//			},
+//			success: function(o){
+//				var d = Ext.decode(o.responseText);
+//				
+//				if(d.success){
+//					
+//					this.fireEvent("activetoggled", record);
+//				}else{
+//					Ext.MessageBox.alert('Error', d.msg || 'Errors encountered on the server.');
+//					// rollback
+//					record.set('active',!record.data.active);
+//				}
+//			},
+//			failure: function(){
+//				Ext.MessageBox.alert('Error', 'Lost connection to server.');	
+//			},
+//			scope: this
+//		});
 	}
 });
