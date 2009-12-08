@@ -1,0 +1,17 @@
+#summary ....
+
+Project based on http://qwikioffice.com/
+
+with ExtJs 3 http://www.extjs.com
+
+*Branches* /
+
+== qwikiPre1.0.beta ==
+ * PDO
+ * extjs3.0.3 !new update
+ * QoAdmin - admin privileges  / members / groups panel
+ * pre install users user::pass : demo::demo, admin::admin
+ * Working example http://qwikiofficebeta.4ju.eu/ (could be unavailable sometimes)
+
+Get it from trunk: http://qwikioffice-extjs3.googlecode.com/svn/trunk/qwikiPre1.0.beta
+(use svn client http://tortoisesvn.net/downloads, look at page Source)
