@@ -1,5 +1,5 @@
 #summary ....
-
+== My ExtJs project==
 Project based on http://qwikioffice.com/
 
 with ExtJs 3 http://www.extjs.com
