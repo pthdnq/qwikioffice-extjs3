@@ -2,7 +2,7 @@
  * qWikiOffice Desktop 0.7
  * Copyright(c) 2007-2008, Integrated Technologies, Inc.
  * licensing@qwikioffice.com
- * 
+ *
  * http://www.qwikioffice.com/license
  */
 
@@ -15,14 +15,14 @@ QoDesk.LayoutWindow = Ext.extend(Ext.app.Module, {
    init : function(){
 
    },
-	
+
 	createWindow : function(){
 		var desktop = this.app.getDesktop();
 		var win = desktop.getWindow('layout-win');
 		if(!win){
-			var winWidth = desktop.getWinWidth() / 1.1;
-			var winHeight = desktop.getWinHeight() / 1.1;
-			
+			var winWidth = parseInt(desktop.getWinWidth() / 1.1);
+			var winHeight = parseInt(desktop.getWinHeight() / 1.1);
+
 			win = desktop.createWindow({
 				id: 'layout-win',
 				title:'Layout Window',

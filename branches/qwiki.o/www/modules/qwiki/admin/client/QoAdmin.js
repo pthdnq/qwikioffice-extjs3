@@ -2,7 +2,7 @@
  * qWikiOffice Desktop 1.0
  * Copyright(c) 2007-2008, Integrated Technologies, Inc.
  * licensing@qwikioffice.com
- * 
+ *
  * http://www.qwikioffice.com/license
  */
 
@@ -20,8 +20,8 @@ QoDesk.QoAdmin = Ext.extend(Ext.app.Module, {
       this.win = desktop.getWindow(this.id);
 
       if(!this.win){
-         var winWidth = desktop.getWinWidth() / 1.1;
-         var winHeight = desktop.getWinHeight() / 1.1;
+         var winWidth = parseInt( desktop.getWinWidth() / 1.1);
+         var winHeight = parseInt( desktop.getWinHeight() / 1.1);
 
          this.tabPanel = new Ext.TabPanel({
             activeTab:0
@@ -52,17 +52,17 @@ QoDesk.QoAdmin = Ext.extend(Ext.app.Module, {
             , width: winWidth
          });
       }
-        
+
       this.win.show();
    }
-    
+
    , openTab : function(tab){
       if(tab){
          this.tabPanel.add(tab);
       }
       this.tabPanel.setActiveTab(tab);
    }
-    
+
    , viewGroups : function(){
       var tab = this.tabPanel.getItem('qo-admin-groups');
       if(!tab){
@@ -72,7 +72,7 @@ QoDesk.QoAdmin = Ext.extend(Ext.app.Module, {
          this.tabPanel.setActiveTab(tab);
       }
    }
-    
+
    , viewMembers : function(){
       var tab = this.tabPanel.getItem('qo-admin-members');
       if(!tab){
@@ -92,7 +92,7 @@ QoDesk.QoAdmin = Ext.extend(Ext.app.Module, {
          this.tabPanel.setActiveTab(tab);
       }
    }
-    
+
    , viewSignups : function(){
       var tab = this.tabPanel.getItem('qo-admin-signups');
       if(!tab){
@@ -111,7 +111,7 @@ QoDesk.QoAdmin = Ext.extend(Ext.app.Module, {
          this.tabPanel.setActiveTab(tab);
       }
    }
-   
+
    , showMask : function(msg){
       this.win.body.mask(msg+'...', 'x-mask-loading');
    }

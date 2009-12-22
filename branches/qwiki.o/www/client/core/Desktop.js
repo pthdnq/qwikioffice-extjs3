@@ -2,7 +2,7 @@
  * qWikiOffice Desktop 1.0
  * Copyright(c) 2007-2008, Integrated Technologies, Inc.
  * licensing@qwikioffice.com
- * 
+ *
  * http://www.qwikioffice.com/license
  *
  * NOTE:
@@ -14,7 +14,7 @@
  * Ext JS Library 3.0
  * Copyright(c) 2006-2007, Ext JS, LLC.
  * licensing@extjs.com
- * 
+ *
  * http://extjs.com/license
  */
 
@@ -373,7 +373,7 @@ Ext.Desktop = Ext.extend(Ext.util.Observable, {
 	addAutoRun : function(id){
 		var m = this.app.getModule(id);
 		var c = this.app.launchers.autorun;
-			
+
 		if(c && m && !m.autorun){
 			m.autorun = true;
 			c.push(id);
@@ -422,7 +422,7 @@ Ext.Desktop = Ext.extend(Ext.util.Observable, {
 
 	/**
 	 * @param {string} id The module id
-	 * @param {boolean} updateConfig 
+	 * @param {boolean} updateConfig
 	 */
 	addShortcut : function(id, updateConfig){
 		var m = this.app.getModule(id);

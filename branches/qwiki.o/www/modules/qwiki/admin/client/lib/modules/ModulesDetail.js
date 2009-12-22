@@ -13,7 +13,6 @@ QoDesk.QoAdmin.ModulesDetail = function(config){
       autoScroll: true
       , border: false
       , cls: 'qo-module-detail'
-      , region: 'north'
    }, config));
 };
 
@@ -45,15 +44,16 @@ Ext.extend(QoDesk.QoAdmin.ModulesDetail, Ext.Panel, {
    		data.about.active = row.active ? Ext.MessageBox.buttonText.yes :Ext.MessageBox.buttonText.no;
       var tpl = new Ext.XTemplate(
          '<table id="qo-module-detail-table">'
-         , '<tr><th>Name:</th><td>{name}</td></tr>'
-         , '<tr><th>Author:</th><td>{author}</td></tr>'
-         , '<tr><th>Description:</th><td>{description}</td></tr>'
-         , '<tr><th>Active:</th><td>{active}</td></tr>'
-         , '<tr><th>WWW:</th><td>{url}</td></tr>'
-         ,'<tr><th>Version:</th><td>{version}</td></tr>'
+         , '<tr><th>Name:</th><td>{values.about.name}</td></tr>'
+         , '<tr><th>Author:</th><td>{values.about.author}</td></tr>'
+         , '<tr><th>Description:</th><td>{values.about.description}</td></tr>'
+         , '<tr><th>Active:</th><td>{values.about.active}</td></tr>'
+         , '<tr><th>WWW:</th><td>{values.about.url}</td></tr>'
+         ,'<tr><th>Version:</th><td>{values.about.version}</td></tr>'
+         ,'<tr><th>Type:</th><td>{values.type}</td></tr>'
          //, '<td class="qo-admin-edit-btn"><p><button id="qo-admin-edit">Edit</button></p></td>'
          , '</table>'
       );
-      tpl.overwrite(this.body, data.about);
+      tpl.overwrite(this.body, data);
     }
 });
