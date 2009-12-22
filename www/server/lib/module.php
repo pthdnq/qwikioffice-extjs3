@@ -63,7 +63,9 @@ class module {
    /**
     * Activates or deactivate module
     *
-    * @param unknown_type $param
+    * @param string $id - module
+    * @param integer $status 0||1
+    * @return integer 1||-1
     */
    public function set_active($id,$status){
    	if($status==1 || $status===0){
@@ -708,4 +710,3 @@ print '</pre>';
 		return $response;
 	} // end register_files()
 }
-?>

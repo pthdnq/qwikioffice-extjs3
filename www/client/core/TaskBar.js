@@ -2,7 +2,7 @@
  * qWikiOffice Desktop 1.0
  * Copyright(c) 2007-2008, Integrated Technologies, Inc.
  * licensing@qwikioffice.com
- * 
+ *
  * http://www.qwikioffice.com/license
  */
 
@@ -45,7 +45,7 @@ Ext.ux.TaskBar = Ext.extend(Ext.Container, {
 				"</table>") //+X+ ADD END
 		});
 
-		var startWidth = Ext.get('ux-startbutton').getWidth() + 10;
+		var startWidth = Ext.get('ux-startbutton')?Ext.get('ux-startbutton').getWidth() + 10:100;
 
 		this.quickStartPanel = new Ext.ux.QuickStartPanel({
 			cls: 'ux-quickstart-panel',

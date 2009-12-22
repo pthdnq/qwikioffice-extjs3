@@ -14,10 +14,12 @@ QoDesk.QoAdmin.Modules = function(ownerModule){
    this.ownerModule = ownerModule;
 
    this.detail = new QoDesk.QoAdmin.ModulesDetail({
-      height: 120
+   		title:'About module'
+      , width: 270
+      , collapsible:true
       , ownerModule: this.ownerModule
       , ownerPanel: this
-      , region: 'north'
+      , region: 'west'
       , split: true
    });
 /*
@@ -43,6 +45,7 @@ QoDesk.QoAdmin.Modules = function(ownerModule){
    }); 
    
 	this.tabPanel = new Ext.TabPanel({
+										title:"Module details",
 								    activeTab: 0,
 								    split:true,
 								    region: 'center',
@@ -296,17 +299,15 @@ Ext.extend(QoDesk.QoAdmin.Modules, Ext.Panel, {
                     }
                   , success:function(o){
                      var encoded = Ext.decode(o.responseText);
+                     console.info(o.responseText);
                      this.detail.updateDetail(encoded.qo_module,data);
+                     
+                     this.methodsGrid.setModuleId(moduleId);
+            				 this.methodsGrid.reload(record);
                      this.hideMask();
                     }
                   , scope: this
                });
-           
-            // load the groups
-            //this.tree.setPrivilegeId(privilegeId);
-            //this.tree.reloadPrivileges();
-            this.methodsGrid.setModuleId(moduleId);
-            this.methodsGrid.reload(record);
          }
       }
     }

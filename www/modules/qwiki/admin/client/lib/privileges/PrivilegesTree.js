@@ -79,7 +79,7 @@ QoDesk.QoAdmin.PrivilegesTree = function(config){
 		rootVisible: false,
 		root: new Ext.tree.AsyncTreeNode({
 			text: 'Privilege'
-		}),
+		})/*,
 		tbar: [
 			 {
 				handler: this.refresh,
@@ -95,7 +95,7 @@ QoDesk.QoAdmin.PrivilegesTree = function(config){
 				scope: this,
 				text: 'Remove'
 			}
-		]
+		]*/
 	}, config));
 
 	this.loader.on('load', onLoad, this, {single:false});
