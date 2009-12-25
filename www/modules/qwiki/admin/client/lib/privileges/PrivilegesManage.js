@@ -18,14 +18,46 @@ QoDesk.QoAdmin.PrivilegesManage = Ext.extend(Ext.Window, {
       this.ownerModule = config.ownerModule;
       this.callback = config.callback;
 
+      this.form = new Ext.form.FormPanel({
+				xtype:'form',
+      	labelWidth:70,
+      	border:false,
+      	defaults:{anchor:"-20"},
+      	autoHeight:true,
+      	items:[
+      		{
+      		 fieldLabel:"Name",
+      		 name:"name",
+      		 xtype:'textfield'//,
+      		 //value: config.data?config.data.name:''
+      		},{
+      			fieldLabel:"Description",
+      			name:"description",
+      			xtype:"textarea",
+      			height:40//,
+      			///value: config.data?config.data.description:''
+      		},{
+      			fieldLabel:"Active",
+      			name:"active",
+      			xtype:'checkbox'//,
+      			//checked:config.data?config.data.active:false
+      		}
+      	]
+      });
+
+      if(config.data){
+      	this.form.getForm().setValues(config.data);
+      }
+
       // tree
       this.tree = new Ext.tree.TreePanel({
 	      autoScroll: true
-	      , border: false
+	      , border: true
 	      , loader: new Ext.tree.TreeLoader({
 	         baseParams: {
 	            method: 'viewModuleMethods'
 	            , moduleId: this.ownerModule.id
+	            ,privilegeId:config.privilegeId
 	         }
 	         , dataUrl: this.ownerModule.app.connection
 	      })
@@ -54,19 +86,20 @@ QoDesk.QoAdmin.PrivilegesManage = Ext.extend(Ext.Window, {
          , constrainHeader: true
          , height: 300
          , iconCls: this.iconCls
-         , items: this.tree
+         , items: [this.form,this.tree]
          , layout: 'fit'
          , maximizable: false
          , manager: this.ownerModule.app.getDesktop().getManager()
          , modal: true
          , shim: false
          , title: 'Manage Privileges'
-         , width: 300
+         , width: 350
+         , bodyStyle:"padding:8px"
       });
 
       QoDesk.QoAdmin.PrivilegesManage.superclass.constructor.apply(this, [config]);
       // constructor post-processing
-      
+
    }
 
    // overrides
@@ -102,7 +135,8 @@ QoDesk.QoAdmin.PrivilegesManage = Ext.extend(Ext.Window, {
    // added methods
 
    , onOk: function(){
-
+			var selNodes = this.tree.getChecked();
+			console.info(selNodes);
    }
 
    , onCancel : function(){

@@ -695,7 +695,7 @@ class kernal {
       }
 
       foreach($ids as $id){
-         $data->module->$id->valid = 1;
+         $data->module->{$id}->valid = 1;
       }
 
       return $this->session->set_data($data);

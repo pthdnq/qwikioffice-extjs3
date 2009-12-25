@@ -51,7 +51,7 @@ QoDesk.QoAdmin.Privileges = function(ownerModule){
                this.detail
                , this.tree
               ]
-            
+
            }
         ]
       , layout: 'border'
@@ -69,7 +69,7 @@ QoDesk.QoAdmin.Privileges = function(ownerModule){
          , {
             disabled: this.ownerModule.app.isAllowedTo('addPrivilege', this.ownerModule.id) ? false : true
             , handler: this.onRecordAdd
-            //, iconCls: 'qo-admin-add'
+            , iconCls: 'qo-admin-add'
             , scope: this
             , text: 'Add'
             , tooltip: 'Add a new privilege'
@@ -77,7 +77,7 @@ QoDesk.QoAdmin.Privileges = function(ownerModule){
          , {
             disabled: this.ownerModule.app.isAllowedTo('editPrivilege', this.ownerModule.id) ? false : true
             , handler: this.onEdit
-            //, iconCls: 'qo-admin-edit'
+            , iconCls: 'qo-admin-edit'
             , scope: this
             , text: 'Edit'
             , tooltip: 'Edit selected'
@@ -85,7 +85,7 @@ QoDesk.QoAdmin.Privileges = function(ownerModule){
          , {
             disabled: this.ownerModule.app.isAllowedTo('deletePrivileges', this.ownerModule.id) ? false : true
             , handler: this.onDelete
-            //, iconCls: 'qo-admin-delete'
+            , iconCls: 'qo-admin-delete'
             , scope: this
             , text: 'Delete'
             , tooltip: 'Delete selected'
@@ -119,6 +119,7 @@ Ext.extend(QoDesk.QoAdmin.Privileges, Ext.Panel, {
       var g = this.grid;
       var s = g.getStore();
       var sm = g.getSelectionModel();
+			var record = sm.getSelected();
 
       var callback = function(id){
          if(id){
@@ -221,10 +222,11 @@ Ext.extend(QoDesk.QoAdmin.Privileges, Ext.Panel, {
          var callback = function(){
             s.reload();
           };
-			
-         var d = new QoDesk.QoAdmin.PrivilegesEdit({
+
+         var d = new QoDesk.QoAdmin.PrivilegesManage({
             callback: callback
             , privilegeId: id
+            , data: record.data
             , ownerModule: this.ownerModule
             , scope: this
          });

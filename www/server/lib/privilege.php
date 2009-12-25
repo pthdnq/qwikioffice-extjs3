@@ -23,7 +23,7 @@ class privilege {
       if(!$os->session_exists()){
          die('Session does not exist!');
       }
-      
+
       $this->os = $os;
 	} // end __construct()
 
@@ -175,6 +175,7 @@ class privilege {
     */
    public function is_allowed($privilege_id, $module_id, $method_name = null){
       // have required params?
+
       if(!isset($privilege_id, $module_id) || $privilege_id == '' || $module_id == ''){
          return false;
       }
@@ -186,10 +187,11 @@ class privilege {
       if(!isset($data)){
          return false;
       }
-
       // if the optional $method_name param was passed in?
       if(isset($method_name) && $method_name != ''){
+
          if(isset($data[$module_id][$method_name]) && ($data[$module_id][$method_name] == 1 || $data[$module_id][$method_name] == '1')){
+
             return true;
          }
       }else{
@@ -379,4 +381,3 @@ class privilege {
       return count($response) > 0 ? $response : null;
    } // end parse_result()
 }
-?>
