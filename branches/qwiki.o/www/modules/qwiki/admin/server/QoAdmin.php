@@ -24,7 +24,7 @@ class QoAdmin {
 
 		$this->os = $os;
 	} // end __construct()
-	
+
 	// begin public module actions
 
    // members
@@ -105,20 +105,20 @@ class QoAdmin {
     */
 	public function addMember(){
 		$response = "{success:false}";
-		
+
 		// make all the strings safe
 		$first_name = $_POST['first_name'];
 		$last_name = $_POST['last_name'];
 		$email_address = $_POST['email_address'];
 		$password = $_POST['password'];
 		$active = $_POST['active'];
-		
+
 	    $a = $this->add_member($first_name, $last_name, $email_address, $password, $active);
-		
+
 		if($a["success"] == "true" && $a["id"] != ""){
 			$response = "{success:true, id: ".$a["id"]."}";
 		}
-	    
+
 	    print $response;
 	} // end addMember()
 
@@ -306,20 +306,20 @@ class QoAdmin {
 		$signup_ids = $_POST["signupIds"];
 		$signup_ids = json_decode(stripslashes($signup_ids));
 		$group_id = $_POST["groupId"];
-		
+
 		$r = array(); // ids to remove from the grid
 		$k = array(); // ids to keep, attempt failed
-			
-		if(count($signup_ids) > 0 && $group_id != ""){			
+
+		if(count($signup_ids) > 0 && $group_id != ""){
 		    foreach($signup_ids as $id){
 				$success = false;
-				
+
 				$sql = "SELECT COUNT(*) FROM qo_signup_requests WHERE id = ".$id;
-				
+
 				$result = $this->os->db->conn->query($sql);
-									        
+
 		        if($result->fetchColumn() > 0){
-		        	
+
 		        	$sql2 = "SELECT
                   first_name,
                   last_name,
@@ -328,25 +328,25 @@ class QoAdmin {
                   qo_signup_requests
                   WHERE
                   id = ".$id;
-					
+
 					$result2 = $this->os->db->conn->query($sql2);
-		        
+
 		        	$row = $result2->fetch(PDO::FETCH_ASSOC);
 
                $this->os->load('utility');
 		        	$password = substr($this->os->utility->build_random_id(), 0, 8);
 		        	$active = "true";
-		        	
+
 		        	// add this new member
 		        	$returned = $this->add_member($row["first_name"], $row["last_name"], $row["email_address"], $password, $active);
-		        	
+
 		        	if($returned["success"]){
-			   
+
 			        	// add this new member to the group
 			        	$active = "true";
 						$admin = "false";
 						if($this->add_member_to_group($returned["id"], $group_id, $active, $admin)){
-						
+
 							// delete from the qo_signup_requests table
 							if($this->delete_signup($id)){
 								$success = true;
@@ -354,15 +354,15 @@ class QoAdmin {
 			        	}
 			        }
 		        }
-		        
+
 		        if($success){
-					$r[] = $id;	
+					$r[] = $id;
 				}else{
-					$k[] = $id;	
+					$k[] = $id;
 				}
 		    }
 		}
-		
+
 		// return ids of removed and kept
 		print '{success: true, r: '.json_encode($r).', k: '.json_encode($k).'}';
 	}
@@ -378,7 +378,7 @@ class QoAdmin {
 
       $r = array(); // ids to remove from the grid
       $k = array(); // ids to keep, attempt failed
-	
+
       if(count($signup_ids) > 0){
          foreach($signup_ids as $id){
 
@@ -444,7 +444,7 @@ class QoAdmin {
       // return ids of removed and kept
       print '{success: true, r: '.json_encode($r).', k: '.json_encode($k).'}';
    } // end markSignupsAsSpam()
-	
+
 	/**
     * loadGroupsCombo()
     * If memberId is passed in, returns only the groups the member is not currently assigned to
@@ -496,7 +496,7 @@ class QoAdmin {
                qo_members_id = ".$member_id;
 
             $result2 = $this->os->db->conn->query($sql2);
-	
+
             while($row = $result2->fetch(PDO::FETCH_ASSOC)){
                $group_ids[] = $row;
             }
@@ -521,7 +521,7 @@ class QoAdmin {
       }else{
          $groups = $all_groups;
       }
-	
+
       if(count($groups) > 0){
          $response = '{"success": true, "total": '.count($groups).', "groups":'.json_encode($groups).'}';
       }
@@ -911,7 +911,7 @@ class QoAdmin {
    		$response = '{"qo_module":'.json_encode($module).'}';
 		print $response;
    }
-   
+
 	/**
 	 * View all modules method
 	 *
@@ -928,16 +928,17 @@ class QoAdmin {
 			$module_item->active = $this->os->module->is_active($module_id);
 			$children[]=$module_item;
 		}
-		
+
 		$response = '{"qo_modules":'.json_encode($children).'}';
 		print $response;
 	}
    /**
     * viewModuleMethods()
+    * returun string json
     */
    public function viewModuleMethods(){
       $response = '{success:false}';
-
+			$privilegeId = isset($_POST['privilegeId'])?intval($_POST['privilegeId']):null;
       // get all the module data
       $this->os->load('module');
       $modules = $this->os->module->get_all();
@@ -948,12 +949,13 @@ class QoAdmin {
       }
 
       $nodes = array();
-
+			$this->os->load('privilege');
       // loop through each module
       foreach($modules as $module_id => $module){
          $module_node = new stdClass();
 
-         $module_node->checked = false;
+         //$module_node->checked = false;
+         $module_node->checked = $this->os->privilege->is_allowed($privilegeId,$module->id);
          $module_node->moduleId = $module->id;
          $module_node->iconCls = 'qo-admin-app';
          $module_node->id = $module->id;
@@ -970,7 +972,8 @@ class QoAdmin {
 
                $method_node = new stdClass();
 
-               $method_node->checked = false;
+               //$method_node->checked = false;
+               $method_node->checked = $this->os->privilege->is_allowed($privilegeId,$module->id,$method->name);
                $method_node->iconCls = 'qo-admin-method';
                $method_node->id = $method->name;
                $method_node->leaf = true;
@@ -999,7 +1002,7 @@ class QoAdmin {
 
    public function viewMethods(){
    	$response = '{success:false}';
-   	
+
    	if(!empty($_POST['id'])){
    	// get all the module data
       $this->os->load('module');
@@ -1012,21 +1015,21 @@ class QoAdmin {
    	print $response;
    }
    /**
-    * Change status of module 
+    * Change status of module
     * acitve = 1|0
     *
     */
    public function changeModuleStatus(){
    	$response = '{success:false}';
    	$status = 0;
-   	
+
    	if($_POST['value']=='true'){
    		$status = 1;
    	}
    	if($_POST['value']=='false'){
    		$status = 0;
    	}
-   	
+
    	$module = $_POST['id'];
    	$return = $this->os->module->set_active($module,$status);
    	if($return == 1){
@@ -1034,10 +1037,10 @@ class QoAdmin {
    	}else{
    		$response = '{success:false,error:"error change status"}';
    	}
-   
+
    	print $response;
    }
-   
+
    /**
     * viewGroupPrivileges() Returns data to load an Ext.tree.TreePanel
     *
@@ -1402,9 +1405,9 @@ class QoAdmin {
     * @access public
     */
    public function viewAllSignups(){
-	
+
 		$response = "{'qo_signups': []}";
-		
+
 		$sql = 'SELECT
 			id,
 			first_name,
@@ -1419,20 +1422,20 @@ class QoAdmin {
       $result = $this->os->db->conn->query($sql);
 		if($result){
 			$items = array();
-			
+
 			while($row = $result->fetch(PDO::FETCH_ASSOC)){
 				$items[] = $row;
 			}
-			
+
 			$response = '{"qo_signups":'.json_encode($items).'}';
-			 
+
 			$response = str_replace('"true"', 'true', $response);
 			$response = str_replace('"false"', 'false', $response);
 		}
-		
+
 		print $response;
 	}
-	
+
 	// end public module actions
 
    /**
@@ -1468,7 +1471,7 @@ class QoAdmin {
 
 	    return $response;
 	} // end add_group()
-	
+
 	/**
     * add_member() Returns the new member id on success.
     *
@@ -1503,7 +1506,7 @@ class QoAdmin {
 			$this->os->load('log');
 			$this->os->log->error($this->errors);
 		}
-	    
+
 	    return $response;
 	} // end add_member()
 
@@ -1728,11 +1731,11 @@ class QoAdmin {
 
 	private function delete_members_launchers($id){
 		$response = false;
-		
-		if($id != ""){			
+
+		if($id != ""){
 			$st = $this->os->db->conn->prepare("DELETE FROM qo_members_has_module_launchers WHERE qo_members_id = ".$id);
 			$st->execute();
-			
+
 			$code = $st->errorCode();
 			if($code == '00000'){
 				$response = true;
@@ -1744,16 +1747,16 @@ class QoAdmin {
 		}
 		return $response;
 	}
-	
-	
-	
+
+
+
 	private function delete_members_session($id){
 		$response = false;
-		
-		if($id != ""){			
+
+		if($id != ""){
 			$st = $this->os->db->conn->prepare("DELETE FROM qo_sessions WHERE qo_members_id = ".$id);
 			$st->execute();
-			
+
 			$code = $st->errorCode();
 			if($code == '00000'){
 				$response = true;
@@ -1770,7 +1773,7 @@ class QoAdmin {
     * delete_group_member_preference()
     *
     * @access private
-    * @param {string} $option 
+    * @param {string} $option
     * @param {integer} $id
     * @return {boolean}
     */
@@ -1813,11 +1816,11 @@ class QoAdmin {
 
 	private function delete_signup($id){
 		$response = false;
-		
-		if($id != ""){			
+
+		if($id != ""){
 			$st = $this->os->db->conn->prepare("DELETE FROM qo_signup_requests WHERE id = ".$id);
 			$st->execute();
-			
+
 			$code = $st->errorCode();
 			if($code == '00000'){
 				$response = true;
@@ -1827,7 +1830,7 @@ class QoAdmin {
 				$this->os->log->error($this->errors);
 			}
 		}
-		
+
 		return $response;
 	}
 }

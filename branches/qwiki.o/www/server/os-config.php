@@ -52,7 +52,7 @@ class config {
     * 2. show only warnings
     * 3. show no errors
     */
-   private $error_reporting = 'show only warnings';
+   private $error_reporting = 'show all';
 
    // End editable code
 
@@ -79,7 +79,8 @@ class config {
       switch($this->error_reporting){
          case 'show all':
             ini_set('display_errors',1);
-            error_reporting(E_ALL|E_STRICT);
+            //error_reporting(E_ALL|E_STRICT);
+            error_reporting(E_ALL);
             break;
          case 'show only warnings':
             ini_set('display_errors',1);

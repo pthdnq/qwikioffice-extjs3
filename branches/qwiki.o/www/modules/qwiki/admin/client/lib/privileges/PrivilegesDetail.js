@@ -22,7 +22,6 @@ Ext.extend(QoDesk.QoAdmin.PrivilegesDetail, Ext.Panel, {
 
    , afterRender : function(){
       QoDesk.QoAdmin.PrivilegesDetail.superclass.afterRender.call(this);
-
         this.ownerPanel.on('privilegeedited', this.onPrivilegeEdited, this);
    }
 
