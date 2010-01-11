@@ -136,7 +136,8 @@ QoDesk.QoAdmin.PrivilegesManage = Ext.extend(Ext.Window, {
 
    , onOk: function(){
 			var selNodes = this.tree.getChecked();
-			console.info(selNodes);
+			//console.info(this.tree);
+			//console.info(selNodes);
    }
 
    , onCancel : function(){

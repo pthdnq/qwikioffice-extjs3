@@ -113,7 +113,7 @@ class QoAdmin {
 		$password = $_POST['password'];
 		$active = $_POST['active'];
 
-	    $a = $this->add_member($first_name, $last_name, $email_address, $password, $active);
+	  $a = $this->add_member($first_name, $last_name, $email_address, $password, $active);
 
 		if($a["success"] == "true" && $a["id"] != ""){
 			$response = "{success:true, id: ".$a["id"]."}";

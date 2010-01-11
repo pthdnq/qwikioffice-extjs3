@@ -196,4 +196,3 @@ class QoPreferences {
       return $success;
    } // end save()
 }
-?>

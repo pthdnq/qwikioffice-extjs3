@@ -36,14 +36,14 @@ QoDesk.QoAdmin.Modules = function(ownerModule){
       , width: 280
       ,split:true
    });
-   
+
   this.methodsGrid = new QoDesk.QoAdmin.ModulesMethodsGrid({
   		title:"Server methods",
       ownerModule: this.ownerModule
       , ownerPanel: this
       , autoScroll:true
-   }); 
-   
+   });
+
 	this.tabPanel = new Ext.TabPanel({
 										title:"Module details",
 								    activeTab: 0,
@@ -55,7 +55,7 @@ QoDesk.QoAdmin.Modules = function(ownerModule){
 								        html: 'Another one'
 								    }]
 								});
-   
+
 //	this.grid = null;
 //
 //   this.grid.on('activetoggled', this.onActiveToggled, this);
@@ -74,7 +74,7 @@ QoDesk.QoAdmin.Modules = function(ownerModule){
             , layout: 'border'
             , region: 'center'
             , items: [
-               this.detail, 
+               this.detail,
                this.tabPanel
               ]
            }
@@ -245,7 +245,7 @@ Ext.extend(QoDesk.QoAdmin.Modules, Ext.Panel, {
          var callback = function(){
             s.reload();
           };
-			
+
          var d = new QoDesk.QoAdmin.ModulesEdit({
             callback: callback
             , privilegeId: id
@@ -274,7 +274,7 @@ Ext.extend(QoDesk.QoAdmin.Modules, Ext.Panel, {
     }
 
    , viewDetail : function(sm, index, record){
-   	
+
       if(record && record.data){
          var data = record.data;
          var moduleId = data.id;
@@ -284,7 +284,7 @@ Ext.extend(QoDesk.QoAdmin.Modules, Ext.Panel, {
 
             // update the detail
             this.detail.setModuleId(moduleId);
-            
+
             Ext.Ajax.request({
                   waitMsg: 'Geting data ...'
                   , url: this.ownerModule.app.connection
@@ -299,9 +299,9 @@ Ext.extend(QoDesk.QoAdmin.Modules, Ext.Panel, {
                     }
                   , success:function(o){
                      var encoded = Ext.decode(o.responseText);
-                     console.info(o.responseText);
+                     //console.info(o.responseText);
                      this.detail.updateDetail(encoded.qo_module,data);
-                     
+
                      this.methodsGrid.setModuleId(moduleId);
             				 this.methodsGrid.reload(record);
                      this.hideMask();
@@ -311,5 +311,5 @@ Ext.extend(QoDesk.QoAdmin.Modules, Ext.Panel, {
          }
       }
     }
-   
+
 });
