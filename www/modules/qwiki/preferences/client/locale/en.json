@@ -95,5 +95,6 @@
       , "quickstart": "Quick Start"
       , "shortcuts": "Shortcuts"
       , "window": "Preferences"
+      , "pickColorBg" :"Pick A Background Color"
    }
 }

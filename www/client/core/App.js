@@ -2,7 +2,7 @@
  * qWikiOffice Desktop 1.0
  * Copyright(c) 2007-2008, Integrated Technologies, Inc.
  * licensing@qwikioffice.com
- * 
+ *
  * http://www.qwikioffice.com/license
  *
  * NOTE:
@@ -14,7 +14,7 @@
  * Ext JS Library 3.0
  * Copyright(c) 2006-2007, Ext JS, LLC.
  * licensing@extjs.com
- * 
+ *
  * http://extjs.com/license
  *
  */
@@ -69,10 +69,10 @@ Ext.extend(Ext.app.App, Ext.util.Observable, {
 	logoutButtonConfig : null,
 	/**
 	* Read-only. The url of this app's server connection
-	* 
+	*
 	* Allows a module to connect to its server script without knowing the path.
 	* Example ajax call:
-	* 
+	*
 	* Ext.Ajax.request({
 	*		url: this.app.connection,
 	*		// Could also pass the module id in the querystring like this.
@@ -299,7 +299,7 @@ Ext.extend(Ext.app.App, Ext.util.Observable, {
 
 		/**
 		* Creates nested arrays that represent the Start Menu.
-		* 
+		*
 		* @param {array} pMenu The Start Menu
 		* @param {array} paths The menu texts
 		* @param {object} launcher The launcher config
@@ -334,7 +334,7 @@ Ext.extend(Ext.app.App, Ext.util.Observable, {
 
 		/**
 		* Returns the menu if found.
-		* 
+		*
 		* @param {array} pMenu The parent menu to search
 		* @param {string} text
 		*/
@@ -384,7 +384,7 @@ Ext.extend(Ext.app.App, Ext.util.Observable, {
 
 	/**
 	* @param {string} id
-	* 
+	*
 	* Provides the handler to the module launcher.
 	* Requests the module, which will load the module if needed.
 	* Passes in the callback and scope as params.
@@ -461,7 +461,7 @@ Ext.extend(Ext.app.App, Ext.util.Observable, {
 	/**
 	* @param {boolean} success
 	* @param {string} id
-	* 
+	*
 	* Will be called when a module is loaded.
 	* If a request for this module is waiting in the
 	* queue, it as executed and removed from the queue.
@@ -552,7 +552,7 @@ Ext.extend(Ext.app.App, Ext.util.Observable, {
 	/**
 	* @param {string} id or moduleType
 	* @param {array} requests An array of request objects
-	* 
+	*
 	* Example:
 	* this.app.makeRequest('module-id', {
 	*		requests: [
@@ -634,14 +634,14 @@ Ext.extend(Ext.app.App, Ext.util.Observable, {
 	* @param {Ext.app.Module} module
 	* @param {object} data
 	* @param {object} options
-	* 
+	*
 	* It may be benificial for a system module to register all (or some) module
 	* activity in the database.
-	* 
+	*
 	* Example usage:
-	* 
+	*
 	* this.app.on('moduleactioncomplete', this.onModuleActionComplete, this);
-	* 
+	*
 	* onModuleActionComplete : function(app, module, params, options){
 	*		if(module && params){
 	*
@@ -651,7 +651,7 @@ Ext.extend(Ext.app.App, Ext.util.Observable, {
 	*
 	*			Ext.Ajax.request({
 	*				url: this.app.connection
-	*				, params: { 
+	*				, params: {
 	*					action: 'registerModuleAction'
 	*					, id: this.id
 	*					, actionModuleId: module.id
@@ -705,7 +705,7 @@ Ext.layout.FormLayout.prototype.getTemplateArgs = function(field) {
 }
 
 /* *****************************************************
- * Bug fix for Ext.Resizable 
+ * Bug fix for Ext.Resizable
  * Fixes problem where el 'auto' size styles replaced.
 */
 Ext.Resizable.prototype.resizeElement = function(){

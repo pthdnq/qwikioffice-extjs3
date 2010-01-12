@@ -14,7 +14,7 @@ Ext.ux.TaskBar = Ext.extend(Ext.Container, {
 	constructor : function(app){
 		this.app = app;
 
-		this.el = Ext.getBody().createChild({ tag: 'div', cls: 'ux-taskbar' });
+		this.el = Ext.getBody().createChild({ tag: 'div', cls: 'ux-taskbar'});
 		var startEl = this.el.createChild({ tag: 'div', cls: 'ux-taskbar-start' });
 		var wrapEl = this.el.createChild({ tag: 'div' });
 
@@ -46,7 +46,6 @@ Ext.ux.TaskBar = Ext.extend(Ext.Container, {
 		});
 
 		var startWidth = Ext.get('ux-startbutton')?Ext.get('ux-startbutton').getWidth() + 10:100;
-
 		this.quickStartPanel = new Ext.ux.QuickStartPanel({
 			cls: 'ux-quickstart-panel',
 			minWidth: 60,
@@ -59,6 +58,15 @@ Ext.ux.TaskBar = Ext.extend(Ext.Container, {
 			cls: 'ux-taskbuttons-panel',
 			region:'center'
 		});
+
+		this.systemTryPanel = new Ext.ux.SystemTrayPanel({
+		    cls: 'ux-quickstart-panel',
+			minWidth: 20,
+			split: true,
+			width: 94,
+		    region:'east'
+		});
+
 
 		Ext.ux.TaskBar.superclass.constructor.call(this, {
 			el: this.el,
@@ -73,8 +81,9 @@ Ext.ux.TaskBar = Ext.extend(Ext.Container, {
 				},{
 					el: wrapEl,
 					items: [
-						this.quickStartPanel,
-						this.taskButtonPanel
+						this.quickStartPanel
+					   ,this.taskButtonPanel
+					   ,this.systemTryPanel
 					],
 					layout: 'border',
 					region: 'center',
@@ -108,7 +117,8 @@ Ext.ux.TaskBar = Ext.extend(Ext.Container, {
 	},
 
 	fireResize : function(w, h){
-		this.fireEvent('resize', this, w, h, w, h);
+		//this.fireEvent('resize', this, w, h, w, h);
+		this.onResize(w, h, w, h);
 	},
 
 	// added method
@@ -211,6 +221,7 @@ Ext.ux.TaskButtonsPanel = Ext.extend(Ext.BoxComponent, {
 		if(this.enableScroll && this.rendered){
 			this.autoScroll();
 		}
+
 	},
 
 	autoSize : function(){
@@ -432,7 +443,7 @@ Ext.extend(Ext.ux.TaskBar.TaskButton, Ext.Button, {
 
 		this.cmenu = new Ext.menu.Menu({
 			items: [{
-				id: 'restore',
+				//id: 'restore',
 				text: 'Restore',
 				handler: function(){
 					if(!this.win.isVisible()){
@@ -559,6 +570,7 @@ Ext.ux.QuickStartPanel = Ext.extend(Ext.BoxComponent, {
 		Ext.ux.QuickStartPanel.superclass.initComponent.call(this);
 
 		this.on('resize', this.delegateUpdates);
+
 		this.menu = new Ext.menu.Menu();
 		this.items = [];
 	},
@@ -693,7 +705,7 @@ Ext.ux.QuickStartPanel = Ext.extend(Ext.BoxComponent, {
 		mb.setHeight(h);
 
 		var btn = new Ext.Button({
-			cls:'x-btn-icon',
+			cls:'x-btn-icon-narrow',
 			id: 'ux-quickstart-menubutton',
 			menu: this.menu,
 			renderTo: mb
@@ -708,3 +720,5 @@ Ext.ux.QuickStartPanel = Ext.extend(Ext.BoxComponent, {
 		return this.menuButton.dom.offsetLeft;
 	}
 });
+
+Ext.ux.SystemTrayPanel = Ext.extend(Ext.ux.QuickStartPanel,{enableMenu: true});

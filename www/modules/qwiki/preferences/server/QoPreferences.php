@@ -7,8 +7,8 @@
  * http://www.qwikioffice.com/license
  */
 
-class QoPreferences {
-
+class QoPreferences
+{
    private $os = null;
 
    /**
@@ -148,8 +148,11 @@ class QoPreferences {
          return $success;
       }
 
-      switch(true){
-         case ($what == 'autorun' || $what == 'quickstart' || $what == 'shortcut'):
+      switch($what){
+         case 'autorun':
+         case 'quickstart':
+         case 'shortcut':
+         case 'systemtray':
 
             // get the ids of the modules
             $ids = isset($_POST['ids']) ? $_POST['ids'] : '';
@@ -175,7 +178,8 @@ class QoPreferences {
             }
 
             break;
-         case ($what == 'appearance'  || $what == 'background'):
+         case 'appearance':
+         case 'background':
 
             // get the data
             $data = isset($_POST['data']) ? $_POST['data'] : '';
