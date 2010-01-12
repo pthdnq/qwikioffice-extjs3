@@ -135,6 +135,7 @@ class QoDesk {
       $autorun = '[]';
       $quickstart = '[]';
       $shortcut = '[]';
+      $systemtray = '[]';
 
       if(isset($preference->launchers->autorun)){
          $autorun = json_encode($preference->launchers->autorun);
@@ -145,11 +146,14 @@ class QoDesk {
       if(isset($preference->launchers->shortcut)){
          $shortcut = json_encode($preference->launchers->shortcut);
       }
-
+      if(isset($preference->launchers->systemtray)){
+         $shortcut = json_encode($preference->launchers->systemtray);
+      }
       print "{
          autorun: ".$autorun.",
          quickstart: ".$quickstart.",
-         shortcut: ".$shortcut."
+         shortcut: ".$shortcut.",
+         systemtray: ".$systemtray."
       }";
    } // end print_launchers()
 
