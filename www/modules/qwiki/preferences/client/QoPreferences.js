@@ -2,7 +2,7 @@
  * qWikiOffice Desktop 1.0
  * Copyright(c) 2007-2008, Integrated Technologies, Inc.
  * licensing@qwikioffice.com
- * 
+ *
  * http://www.qwikioffice.com/license
  */
 
@@ -10,7 +10,7 @@ Ext.namespace("Ext.plugin");
 QoDesk.QoPreferences = Ext.extend(Ext.app.Module, {
    id: 'qo-preferences'
    , type: 'system/preferences'
-   
+
    , menuPath: 'ToolMenu'
 
    , cardHistory: [ 'pref-win-card-1' ]
@@ -18,16 +18,16 @@ QoDesk.QoPreferences = Ext.extend(Ext.app.Module, {
    , init : function(){
    	this.locale = QoDesk.QoPreferences.Locale;
 	}
-   
+
    , createWindow : function(){
       var d = this.app.getDesktop();
       this.win = d.getWindow(this.id);
-      
+
       var h = parseInt(d.getWinHeight() * 0.9);
       var w = parseInt(d.getWinWidth() * 0.9);
       if(h > 500){ h = 500; }
       if(w > 610){ w = 610; }
-        
+
       if(this.win){
          this.win.setSize(w, h);
       }else{
@@ -78,7 +78,7 @@ QoDesk.QoPreferences = Ext.extend(Ext.app.Module, {
 	                }
 	            ]
 			});
-			
+
             this.win = d.createWindow({
             	animCollapse: false
                 , constrainHeader: true
@@ -92,20 +92,20 @@ QoDesk.QoPreferences = Ext.extend(Ext.app.Module, {
                 , title: this.locale.title.window
                 , width: w
             });
-            
+
 			this.layout = this.contentPanel.getLayout();
         }
-        
+
         this.win.show();
     }
-    
+
     , handleButtonState : function(){
     	var cards = this.cardHistory;
     	var activeId = this.layout.activeItem.id;
     	var items = this.contentPanel.getTopToolbar().items;
     	var back = items.get(0);
     	var next = items.get(1);
-    	
+
     	for(var i = 0, len = cards.length; i < len; i++){
     		if(cards[i] === activeId){
     			if(i <= 0){
@@ -122,23 +122,23 @@ QoDesk.QoPreferences = Ext.extend(Ext.app.Module, {
     		}
     	}
     }
-    
+
     , navHandler : function(index){
     	var cards = this.cardHistory;
     	var activeId = this.layout.activeItem.id;
     	var nextId;
-    	
+
     	for(var i = 0, len = cards.length; i < len; i++){
     		if(cards[i] === activeId){
     			nextId = cards[i+index];
     			break;
     		}
     	}
-    	
+
     	this.layout.setActiveItem(nextId);
     	this.handleButtonState();
     }
-    
+
     , save : function(params){
     	var desktop = this.app.getDesktop();
     	var notifyWin = desktop.showNotification({
@@ -147,9 +147,9 @@ QoDesk.QoPreferences = Ext.extend(Ext.app.Module, {
 		});
 	   var callback = params.callback || null;
 		var callbackScope = params.callbackScope || this;
-		
+
 		params.moduleId = this.id;
-		
+
       Ext.Ajax.request({
 			url: this.app.connection
 			// Could also pass the module id and method in the querystring like this
@@ -169,19 +169,19 @@ QoDesk.QoPreferences = Ext.extend(Ext.app.Module, {
 			}
 			, scope: this
 		});
-		
+
 		function saveComplete(title, msg){
 			notifyWin.setIconClass('x-icon-done');
 			notifyWin.setTitle(title);
 			notifyWin.setMessage(msg);
 			desktop.hideNotification(notifyWin);
-			
+
 			if(callback){
 				callback.call(callbackScope);
 			}
 		}
 	}
-    
+
    , viewCard : function(card){
       this.layout.setActiveItem(card);
       var h = this.cardHistory;
