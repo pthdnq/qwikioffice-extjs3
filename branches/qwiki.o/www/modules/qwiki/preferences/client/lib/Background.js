@@ -28,55 +28,71 @@ QoDesk.QoPreferences.Background = Ext.extend(Ext.Panel, {
 		var tileRadio = createRadio('tile', wpp == 'tile' ? true : false, 90, 40);
 		var centerRadio = createRadio('center', wpp == 'center' ? true : false, 200, 40);
 
-		var position = new Ext.FormPanel({
-			border: false
-			, height: 100
-			, items: [
-				{x: 15, y: 15, xtype: 'label', text: this.ownerModule.locale.label.wallpaperPosition }
-				, {
-					border: false
-					, items: {border: false, html: '<img class="pref-bg-pos-tile" src="'+Ext.BLANK_IMAGE_URL+'" width="64" height="44" border="0" alt="" />'}
-					, x: 15
-					, y: 40
-				}
-				, tileRadio
-				, {
-					border: false
-					, items: {border: false, html: '<img class="pref-bg-pos-center" src="'+Ext.BLANK_IMAGE_URL+'" width="64" height="44" border="0" alt="" />'}
-					, x: 125
-					, y: 40
-				}
-				, centerRadio
-				, {x: 252, y: 15, xtype: 'label', text: this.ownerModule.locale.label.backgroundColor }
-				, {
-					border: false
-					, items: new Ext.Button({
-						iconCls: 'pref-bg-color-icon'
-                  , handler: onChangeBgColor
-						, scope: this
-						//, text: this.ownerModule.locale.button.backgroundColor.text
-					})
-					, x: 253
-					, y: 40
-				}
-				, {x: 425, y: 15, xtype: 'label', text: this.ownerModule.locale.label.fontColor }
-				, {
-					border: false
-					, items: new Ext.Button({
-						iconCls: 'pref-font-color-icon'
-						, handler: onChangeFontColor
-						, scope: this
-						//, text: this.ownerModule.locale.button.fontColor.text
-					})
-					, x: 425
-					, y: 40
-				}
-			]
-			, layout: 'absolute'
-			, region: 'south'
-			, split: false
+		var position = Ext.extend( Ext.FormPanel, {
+		    initComponent:function(){
+		        var config = {
+        			border: false
+        			, height: 100
+        			, items: [
+        				{x: 15, y: 15, xtype: 'label', text: this.scope.ownerModule.locale.label.wallpaperPosition }
+        				, {
+        					border: false
+        					, items: {border: false, html: '<img class="pref-bg-pos-tile" src="'+Ext.BLANK_IMAGE_URL+'" width="64" height="44" border="0" alt="" />'}
+        					, x: 15
+        					, y: 40
+        					, width: 64
+        					, height: 44
+        				}
+        				, tileRadio
+        				, {
+        					border: false
+        					, items: {border: false, html: '<img class="pref-bg-pos-center" src="'+Ext.BLANK_IMAGE_URL+'" width="64" height="44" border="0" alt="" />'}
+        					, x: 125
+        					, y: 40
+        					, width: 64
+        					, height: 44
+        				}
+        				, centerRadio
+        				, {x: 252, y: 15, xtype: 'label', text: this.scope.ownerModule.locale.label.backgroundColor }
+        				, {
+        					border: false
+        					, items: new Ext.Button({
+        						iconCls: 'pref-bg-color-icon'
+                          , handler: onChangeBgColor
+        						, scope: this.scope
+        						, text: this.scope.ownerModule.locale.button.backgroundColor.text
+        					})
+        					, x: 253
+        					, y: 40
+        					, width : 120
+        				}
+        				, {x: 425, y: 15, xtype: 'label', text: this.scope.ownerModule.locale.label.fontColor }
+        				, {
+        					border: false
+        					, items: new Ext.Button({
+        						iconCls: 'pref-font-color-icon'
+        						, handler: onChangeFontColor
+        						, scope: this.scope
+        						, text: this.scope.ownerModule.locale.button.fontColor.text
+        					})
+        					, x: 425
+        					, y: 40
+        					, width: 100
+        				}
+        			]
+        			, layout: 'absolute'
+        			, region: 'south'
+        			, split: false
+		        };
+		        Ext.apply(this,Ext.apply(this.initialConfig,config));
+                position.superclass.initComponent.apply(this,arguments);
+		    },
+		    onRender:function(){
+		        position.superclass.onRender.apply(this,arguments);
+		    }
 		});
 
+		Ext.reg('BackgroundSettingsUxBox',position);
 		// this config
 		Ext.applyIf(config, {
 			border: false
@@ -96,7 +112,7 @@ QoDesk.QoPreferences.Background = Ext.extend(Ext.Panel, {
 			, cls: 'pref-card'
 			, items: [
 				this.grid
-				, position
+				, { xtype:'BackgroundSettingsUxBox',id:"desctopBgSettings",scope:this}
 			]
 			, layout: 'border'
 			, title: this.ownerModule.locale.title.background
@@ -210,6 +226,7 @@ QoDesk.QoPreferences.Background = Ext.extend(Ext.Panel, {
 		QoDesk.QoPreferences.Background.superclass.afterRender.call(this);
 
 		this.on('show', this.loadGrid, this, {single: true});
+
 	}
 
 	// added methods
