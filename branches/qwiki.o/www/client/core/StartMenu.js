@@ -40,14 +40,13 @@
  * });
  */
 
-Ext.ux.StartMenu = Ext.extend(Ext.menu.Menu, {                                  //+X+ REPLACE START
-	height : 300,
-	toolPanelWidth : 100,
-	width : 300,
+Ext.namespace("Ext.ux");
 
+Ext.ux.StartMenu = Ext.extend(Ext.menu.Menu, {
+	
 	initComponent: function(config) {
 		Ext.ux.StartMenu.superclass.initComponent.call(this, config);
-
+        
 		var tools = this.toolItems;
 		this.toolItems = new Ext.util.MixedCollection();
 		if(tools){
@@ -58,39 +57,49 @@ Ext.ux.StartMenu = Ext.extend(Ext.menu.Menu, {                                  
 	// private
 	onRender : function(ct, position){
 		Ext.ux.StartMenu.superclass.onRender.call(this, ct, position);
-		var el = this.el.addClass('ux-start-menu');                              //+X+ REPLACE END
-/* //+X+ REMOVED START
-		if(this.el){
-			return;
-		}
-		var el = this.el = new Ext.Layer({
-			cls: 'x-menu ux-start-menu',
-			shadow:this.shadow,
-			constrain: false,
-			parentEl: this.parentEl || document.body,
-			zindex:15000
-		});
-//*/ //+X+ REMOVED END
-		var header = el.createChild({ tag: 'div' /*, cls: 'x-window-header x-unselectable x-panel-icon '//+this.iconCls */ });
-		header.setStyle('padding', '7px 0 0 0');
+		var el = this.el.addClass('ux-start-menu');
+        var header = el.createChild({
+                    tag: "div",
+                    cls: "x-window-header x-unselectable x-panel-icon "+this.iconCls
+                });
+
+        header.setStyle('padding', '7px 0 0 0');
 
 		this.header = header;
-		/* Don't create header text span tag.
-		 * Can be uncommented.
-		var headerText = header.createChild({
-			tag: 'span',
-			cls: 'x-window-header-text'
-		}); */
-		var tl = header.wrap({ cls: 'ux-start-menu-tl' });
-		var tr = header.wrap({ cls: 'ux-start-menu-tr' });
-		var tc = header.wrap({ cls: 'ux-start-menu-tc' });
 		
-		this.menuBWrap = el.createChild({ tag: 'div', cls: 'ux-start-menu-body x-border-layout-ct ux-start-menu-body' });
-		var ml = this.menuBWrap.wrap({ cls: 'ux-start-menu-ml' });
-		var mc = this.menuBWrap.wrap({ cls: 'ux-start-menu-mc ux-start-menu-bwrap' });
+//		var headerText = header.createChild({
+//			tag: "span",
+//			cls: "x-window-header-text"
+//		});
+		var tl = header.wrap({
+			cls: "ux-start-menu-tl"
+		});
+		var tr = header.wrap({
+			cls: "ux-start-menu-tr"
+		});
+		var tc = header.wrap({
+			cls: "ux-start-menu-tc"
+		});
 		
-		this.menuPanel = this.menuBWrap.createChild({ tag: 'div', cls: 'x-panel x-border-panel ux-start-menu-apps-panel opaque' });
-		this.toolsPanel = this.menuBWrap.createChild({ tag: 'div', cls: 'x-panel x-border-panel ux-start-menu-tools-panel' });
+		this.menuBWrap = el.createChild({ 
+            tag: 'div',
+            cls: 'ux-start-menu-body x-border-layout-ct ux-start-menu-body'
+        });
+		var ml = this.menuBWrap.wrap({ 
+            cls: 'ux-start-menu-ml'
+        });
+		var mc = this.menuBWrap.wrap({ 
+            cls: 'ux-start-menu-mc ux-start-menu-bwrap'
+        });
+		//tu powinno byc menu
+		this.menuPanel = this.menuBWrap.createChild({
+            tag: 'div',
+            cls: 'x-panel x-border-panel ux-start-menu-apps-panel opaque'
+        });
+		this.toolsPanel = this.menuBWrap.createChild({
+            tag: 'div',
+            cls: 'x-panel x-border-panel ux-start-menu-tools-panel'
+        });
 		
 		var bwrap = ml.wrap({cls: 'x-window-bwrap'});
 		var bc = bwrap.createChild({ tag: 'div', cls: 'ux-start-menu-bc' });
@@ -103,58 +112,52 @@ Ext.ux.StartMenu = Ext.extend(Ext.menu.Menu, {                                  
 
 		if(this.plain){ el.addClass('x-menu-plain'); }
 		if(this.cls){ el.addClass(this.cls); }
-		
-		// generic focus element
-		this.focusEl = el.createChild({ tag: 'a', cls: 'x-menu-focus', href: '#', onclick: 'return false;', tabIndex:'-1' });
-
-		//var ul = this.menuPanel.createChild({ tag: 'ul', cls: 'x-menu-list' }); //+X+ REMOVED
+	
 		this.ul.appendTo(this.menuPanel); //+X+ ADDED
+        
 		//var ul = this.ul; //+X+ REPLACE (ABOVE LINE) END
-		var toolsUl = this.toolsPanel.createChild({ tag: 'ul', cls: 'x-menu-list' });
-/* //+X+ REMOVED START
-		var ulListeners = {
-			'click': { fn: this.onClick, scope: this },
-			'mouseover': { fn: this.onMouseOver, scope: this },
-			'mouseout': { fn: this.onMouseOut, scope: this }
-		};
-		ul.on(ulListeners);
-		this.items.each(function(item){
-			var li = document.createElement('li');
-			li.className = 'x-menu-list-item';
-			ul.dom.appendChild(li);
-			item.render(li, this);
-		}, this);
+        var toolsUl = this.toolsPanel.createChild({
+            tag: 'ul',
+            cls: 'x-menu-list'
+        });
 
-		this.ul = ul;
-		this.autoWidth();
 
-		toolsUl.on(ulListeners);
-//*/ //+X+ REMOVED END
-//+X+ ADD START
 		this.mon(toolsUl, 'click', this.onClick, this);
 		this.mon(toolsUl, 'mouseover', this.onMouseOver, this);
 		this.mon(toolsUl, 'mouseout', this.onMouseOut, this);
 
 		this.items.each(function(item){
+//            var li = document.createElement('li');
+//                li.className = 'x-menu-list-item';
+//                this.ul.dom.appendChild(li);
+//                item.render(li);
 			item.parentMenu = this;
 		}, this);
-//+X+ ADD END
 
-		this.toolItems.each(function(item){
-			var li = document.createElement('li');
-			li.className = 'x-menu-list-item';
-			toolsUl.dom.appendChild(li);
-			item.render(li); //item.render(li, this); //+X+ REMOVED
-			item.parentMenu = this; //+X+ ADDED
-		}, this);
+
+		this.toolItems.each(
+            function(item){
+                var li = document.createElement('li');
+                li.className = 'x-menu-list-item';
+                toolsUl.dom.appendChild(li);
+                item.render(li);
+                item.parentMenu = this;
+            }, this);
 
 		this.toolsUl = toolsUl;
-		//this.autoWidth();  //+X+ REMOVED
-	
+		
 		this.menuBWrap.setStyle('position', 'relative');  
 		this.menuBWrap.setHeight(this.height - 12);
-		this.menuPanel.setStyle({ padding: '2px', position: 'absolute', overflow: 'auto' });
-		this.toolsPanel.setStyle({ padding: '2px 4px 2px 2px', position: 'absolute', overflow: 'auto' });
+		this.menuPanel.setStyle({
+            padding: '2px',
+            position: 'absolute',
+            overflow: 'auto'
+        });
+		this.toolsPanel.setStyle({ 
+            padding: '2px 4px 2px 2px',
+            position: 'absolute',
+            overflow: 'auto'
+        });
 		this.setTitle(this.title);
 	},
 
@@ -198,6 +201,7 @@ Ext.ux.StartMenu = Ext.extend(Ext.menu.Menu, {                                  
 
 	addTool : function(){
 		var a = arguments, l = a.length, item;
+        
 		for(var i = 0; i < l; i++){
 			var el = a[i];
 			if(el.render){ // some kind of Item
@@ -214,6 +218,7 @@ Ext.ux.StartMenu = Ext.extend(Ext.menu.Menu, {                                  
 				item = this.addToolMenuItem(el);
 			}
 		}
+        
 		return item;
 	},
 
@@ -227,17 +232,18 @@ Ext.ux.StartMenu = Ext.extend(Ext.menu.Menu, {                                  
 
 	addToolItem : function(item){
 		this.toolItems.add(item);
-		if(this.toolsUl){
+		if(this.ul){
 			var li = document.createElement('li');
 			li.className = 'x-menu-list-item';
-			this.toolsUl.dom.appendChild(li);
+			this.ul.dom.appendChild(li);
 			item.render(li, this);
 			this.delayAutoWidth();
 		}
+         
 		return item;
 	},
 
-	addToolMenuItem : function(config){
+	addToolMenuItem : function(config){ 
 		if(!(config instanceof Ext.menu.Item)){
 			if(typeof config.checked == 'boolean'){ // must be check menu item config?
 				config = new Ext.menu.CheckItem(config);
@@ -245,6 +251,7 @@ Ext.ux.StartMenu = Ext.extend(Ext.menu.Menu, {                                  
 				config = new Ext.menu.Item(config);
 			}
 		}
+       
 		return this.addToolItem(config);
 	},
 
@@ -257,6 +264,7 @@ Ext.ux.StartMenu = Ext.extend(Ext.menu.Menu, {                                  
 	},
 
 	getToolButton : function(config){
+        
 		var btn = new Ext.Button({
 			handler: config.handler,
 			//iconCls: config.iconCls,
