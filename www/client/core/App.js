@@ -37,6 +37,7 @@ Ext.extend(Ext.app.App, Ext.util.Observable, {
 	* @type boolean
 	*/
 	isReady : false,
+    startMenu : null,
 	/**
 	 * Read-only. This app's launchers
 	 * @type object
@@ -121,11 +122,12 @@ Ext.extend(Ext.app.App, Ext.util.Observable, {
 		Ext.apply(this.startConfig, this.startItemsConfig);
 
 		this.desktop = new Ext.Desktop(this);
-
+        
 		this.styles = this.styles || this.getStyles();
 		this.initStyles();
 
 		this.launchers = this.launchers || this.getLaunchers();
+        this.desktop.taskbar.startMenu.doLayout();
 		this.initLaunchers();
 		this.initContextMenu();
 
@@ -180,7 +182,7 @@ Ext.extend(Ext.app.App, Ext.util.Observable, {
 	initLaunchers : function(){
 		var l = this.launchers;
 		if(!l){
-			this.launchers = { quickstart: [], shortcut: [], autorun: [] };
+			this.launchers = { quickstart: [], shortcut: [], autorun: [], systemtray: [] };
 			return false;
 		}
 
@@ -259,7 +261,7 @@ Ext.extend(Ext.app.App, Ext.util.Observable, {
 	getStartItemsConfig : function(){
 		var ms = this.modules;
 		var sortFn = this.startMenuSortFn;
-
+        
 		if(ms){
 			var launcherPaths;
 			var paths;
