@@ -733,20 +733,3 @@ Ext.Resizable.prototype.resizeElement = function(){
 	}
 	return box;
 };
-
-// For fix @ https://extjs.net/forum/showthread.php?p=395236
-Ext.override(Ext.Slider, {
-	setValue : function(v, animate, changeComplete){
-		v = this.normalizeValue(v);
-		if(v !== this.value && this.fireEvent('beforechange', this, v, this.value) !== false){
-			this.value = v;
-			if(this.thumb){
-				this.moveThumb(this.translateValue(v), animate !== false);
-			}
-			this.fireEvent('change', this, v);
-			if(changeComplete){
-				this.fireEvent('changecomplete', this, v);
-			}
-		}
-	}
-});
