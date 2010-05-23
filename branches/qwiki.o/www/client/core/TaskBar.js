@@ -67,7 +67,6 @@ Ext.ux.TaskBar = Ext.extend(Ext.Container, {
 		    region:'east'
 		});
 
-
 		Ext.ux.TaskBar.superclass.constructor.call(this, {
 			el: this.el,
 			items: [

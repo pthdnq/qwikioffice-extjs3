@@ -101,14 +101,10 @@ class config {
 	 *
 	 */
 	public static function loadExtJs(){
-
-
-		$ext[]='<link rel="stylesheet" type="text/css" href="http://extjs.cachefly.net/ext-3.1.1/resources/css/ext-all.css" />';
-		$ext[]='<script type="text/javascript" src="http://extjs.cachefly.net/ext-3.1.1/adapter/ext/ext-base.js"></script>';
-		$ext[]='<script type="text/javascript" src="http://extjs.cachefly.net/ext-3.1.1/ext-all-debug.js"></script>';
-		$ext[]='<script type="text/javascript" src="http://extjs.cachefly.net/ext-3.1.1/examples/ux/statusbar/StatusBar.js"></script>';
-
-		//$ext[]='<script src="/ext3/ext-fix.js"></script>';
+		$ext[]='<link rel="stylesheet" type="text/css" href="http://extjs.cachefly.net/ext-3.2.1/resources/css/ext-all.css" />';
+		$ext[]='<script type="text/javascript" src="http://extjs.cachefly.net/ext-3.2.1/adapter/ext/ext-base.js"></script>';
+		$ext[]='<script type="text/javascript" src="http://extjs.cachefly.net/ext-3.2.1/ext-all-debug.js"></script>';
+		$ext[]='<script type="text/javascript" src="http://extjs.cachefly.net/ext-3.2.1/examples/ux/statusbar/StatusBar.js"></script>';
 		return join("\n",$ext);
 	}
 
