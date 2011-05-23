@@ -1,0 +1,205 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Capture Photo</title>
+
+    <script src="phonegap.0.9.5.js"></script>
+    <script src="webintent.js"></script>
+    <script charset="utf-8">
+
+    if(!console){
+        var console = {
+            log:function(t){ alert(t); } 
+        }
+    }
+    var pictureSource;   // picture source
+    var destinationType; // sets the format of returned value 
+    var sr;//phone container
+
+    // Wait for PhoneGap to connect with the device
+    //
+    function onLoad() {
+        document.addEventListener("deviceready",onDeviceReady,false);
+    }
+
+    // PhoneGap is ready to be used!
+    //
+    function onDeviceReady() {
+        pictureSource = navigator.camera.PictureSourceType;
+        destinationType = navigator.camera.DestinationType;
+        
+        sr = document.getElementById("phone");
+       
+        getIntends();
+		
+    }
+
+    // Called when a photo is successfully retrieved
+    //
+    function onPhotoDataSuccess(imageData) {
+      // Uncomment to view the base64 encoded image data
+      // console.log(imageData);
+
+      // Get image handle
+      //
+      var smallImage = document.getElementById('smallImage');
+
+      // Unhide image elements
+      //
+      smallImage.style.display = 'block';
+
+      // Show the captured photo
+      // The inline CSS rules are used to resize the image
+      //
+      smallImage.src = "data:image/jpeg;base64," + imageData;
+      smallImage.width = '150';
+    }
+
+    // Called when a photo is successfully retrieved
+    //
+    function onPhotoURISuccess(imageURI) {
+      // Uncomment to view the image file URI 
+      // console.log(imageURI);
+
+      // Get image handle
+      //
+      var largeImage = document.getElementById('largeImage');
+
+      // Unhide image elements
+      //
+      largeImage.style.display = 'block';
+
+      // Show the captured photo
+      // The inline CSS rules are used to resize the image
+      //
+      largeImage.src = imageURI;
+    }
+
+	function onPhotoURISuccesMulti(url){
+		var img = document.createElement("img");
+		document.body.appendChild(img);
+		img.src = url;
+		img.width = 150;
+	}
+
+    // A button will call this function
+    //
+    function capturePhoto() {
+      // Take picture using device camera and retrieve image as base64-encoded string
+      navigator.camera.getPicture(onPhotoDataSuccess, onFail, { quality: 50 });
+    }
+
+    // A button will call this function
+    //
+    function capturePhotoEdit() {
+      // Take picture using device camera, allow edit, and retrieve image as base64-encoded string  
+      navigator.camera.getPicture(onPhotoDataSuccess, onFail, { quality: 20, allowEdit: true }); 
+    }
+
+    // A button will call this function
+    //
+    function getPhoto(source) {
+      // Retrieve image file location from specified source
+      navigator.camera.getPicture(onPhotoURISuccess, onFail, { quality: 50, 
+        destinationType: destinationType.FILE_URI,
+        sourceType: source });
+    }
+
+    // Called if something bad happens.
+    // 
+    function onFail(mesage) {
+      alert('Failed because: ' + message);
+    }
+    var win = function(evt) {
+         var smallImage = document.getElementById('smallImage');
+         smallImage.style.display = 'block';
+      	 smallImage.src = evt.target.result;
+    };
+    
+    var fail = function(evt) {
+        console.log(evt.target.error.code);
+    };
+
+	function getIntends(){
+		window.plugins.webintent.hasExtra(WebIntent.EXTRA_STREAM, 
+		    function(is) {
+		    	if(is){
+		    			window.plugins.webintent.getExtra(WebIntent.EXTRA_STREAM, 
+						    function(url) {
+						    	if(url){
+						    		var urls = JSON.parse( url );
+						    		 alert("cos tu jest " + url);
+						    	for(a in urls){	 
+						    		//alert(urls[a]);
+										onPhotoURISuccesMulti(urls[a].uri);
+								}
+						
+                         /*var reader = new FileReader();
+							reader.onload = win;
+							reader.onerror= fail;
+							reader.readAsDataURL(url);
+
+						var btn = document.getElementById("sendPhoto");
+						btn.style.display = "block";
+						btn.onclick = function(){
+							sentPhoto(url);
+						}
+						*/
+						    	} else{
+						    		alert("nic nie ma :( ");
+						    	}
+						        
+						    }, function() {
+						       alert("nourl");
+						    });
+		    	} else {
+		    		//- brak akcji
+		    	}
+		        
+		    }, function() {
+		       
+		    });
+	}
+
+
+function sentPhoto(url){
+	var win = function(r) {
+		    alert("Wyslano: " + r.bytesSent );
+		}
+		
+		var fail = function(error) {
+		    alert("Error: Code = " = error.code);
+		}
+		
+		var options = new FileUploadOptions();
+		options.fileKey="file";
+		options.fileName=url;
+		options.mimeType="image/jpeg";
+		
+		var params = new Object();
+		params.value1 = "test";
+		params.value2 = "param";
+		
+		options.params = params;
+		
+		
+		var ft = new FileTransfer();
+		ft.upload(options.fileName, "http://li1.pl/upload.php", win, fail, options);
+			
+}
+
+
+  </script>
+  </head>
+  <body onload="onLoad()">
+    <button onclick="capturePhoto();">Capture Photo</button> <br>
+    <button onclick="capturePhotoEdit();">Capture Editable Photo</button> <br>
+    <button onclick="getPhoto(pictureSource.PHOTOLIBRARY);">From Photo Library</button><br>
+    <button onclick="getPhoto(pictureSource.SAVEDPHOTOALBUM);">From Photo Album</button><br>
+     <div id="phone">#</div>
+     <button id="sendPhoto" style="display:none">Wyœlij</button>
+    <img style="display:none;width:60px;height:60px;" id="smallImage" src="" />
+    <img style="display:none;width:160px;" id="largeImage" src="" />
+   ...
+  </body>
+</html>
